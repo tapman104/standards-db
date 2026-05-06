@@ -1,0 +1,986 @@
+[
+  {
+    "standard": "GOST 7798-70",
+    "title": "Hexagon Head Bolt with Shank — Grade B",
+    "category": "bolt",
+    "sub_category": "hex_bolt_partial_thread",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/bolts/7798-70.md",
+    "equivalents": {
+      "iso": ["ISO 4014"],
+      "din": ["DIN 931"],
+      "indian": ["IS 1364-1"]
+    }
+  },
+  {
+    "standard": "GOST 7805-70",
+    "title": "Hexagon Head Bolt — Full Thread",
+    "category": "bolt",
+    "sub_category": "hex_bolt_full_thread",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/bolts/7805-70.md",
+    "equivalents": {
+      "iso": ["ISO 4017"],
+      "din": ["DIN 933"],
+      "indian": ["IS 1364-2"]
+    }
+  },
+  {
+    "standard": "GOST 7817-80",
+    "title": "Hexagon Head Bolt — Grade A (Precision)",
+    "category": "bolt",
+    "sub_category": "hex_bolt_partial_thread_grade_a",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/bolts/7817-80.md",
+    "equivalents": {
+      "iso": ["ISO 4014"],
+      "din": ["DIN 931"],
+      "indian": ["IS 1364-1"]
+    }
+  },
+  {
+    "standard": "GOST 15589-70",
+    "title": "Hexagon Head Bolt — Grade C (Black)",
+    "category": "bolt",
+    "sub_category": "hex_bolt_partial_thread_grade_c",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/bolts/15589-70.md",
+    "equivalents": {
+      "iso": ["ISO 4016"],
+      "din": ["DIN 601"],
+      "indian": ["IS 1363-1"]
+    }
+  },
+  {
+    "standard": "GOST 22353-77",
+    "title": "High-Strength Structural Bolt — Large WAF",
+    "category": "bolt",
+    "sub_category": "structural_bolt_large_waf",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/bolts/22353-77.md",
+    "equivalents": {
+      "iso": ["ISO 7411"],
+      "din": ["DIN 6914", "EN 14399-4"],
+      "indian": ["IS 3757"]
+    }
+  },
+  {
+    "standard": "GOST R 52643-2006",
+    "title": "Structural Bolt Assembly — General Specification",
+    "category": "bolt",
+    "sub_category": "structural_bolt_assembly_spec",
+    "body": "GOST",
+    "country": "Russia",
+    "path": "standards/gost/bolts/r-52643-2006.md",
+    "equivalents": {
+      "iso": [],
+      "din": ["EN 14399-1"],
+      "indian": []
+    }
+  },
+  {
+    "standard": "GOST R 52644-2006",
+    "title": "Structural Bolt — Large WAF Dimensions (Modern RF)",
+    "category": "bolt",
+    "sub_category": "structural_bolt_large_waf",
+    "body": "GOST",
+    "country": "Russia",
+    "path": "standards/gost/bolts/r-52644-2006.md",
+    "equivalents": {
+      "iso": ["ISO 7411"],
+      "din": ["EN 14399-4"],
+      "indian": ["IS 3757"]
+    }
+  },
+  {
+    "standard": "GOST 24379.0-80",
+    "title": "Foundation Bolt — General Specification",
+    "category": "bolt",
+    "sub_category": "foundation_bolt_spec",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/bolts/24379.0-80.md",
+    "equivalents": {
+      "iso": [],
+      "din": ["DIN 529"],
+      "indian": ["IS 5624"],
+      "astm": ["ASTM F1554"]
+    }
+  },
+  {
+    "standard": "GOST 24379.1-80",
+    "title": "Foundation Bolt — Dimensions and Types",
+    "category": "bolt",
+    "sub_category": "foundation_bolt_dimensions",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/bolts/24379.1-80.md",
+    "equivalents": {
+      "iso": [],
+      "din": ["DIN 529"],
+      "indian": ["IS 5624"],
+      "astm": ["ASTM F1554"]
+    }
+  },
+  {
+    "standard": "GOST 5915-70",
+    "title": "Hexagon Nut Style 1 — Grade B",
+    "category": "nut",
+    "sub_category": "hex_nut_style_1",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/nuts/5915-70.md",
+    "equivalents": {
+      "iso": ["ISO 4032"],
+      "din": ["DIN 934"],
+      "indian": ["IS 1364-3"]
+    }
+  },
+  {
+    "standard": "GOST 5927-70",
+    "title": "Hexagon Nut Style 1 — Grade A",
+    "category": "nut",
+    "sub_category": "hex_nut_style_1_grade_a",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/nuts/5927-70.md",
+    "equivalents": {
+      "iso": ["ISO 4032"],
+      "din": ["DIN 934"],
+      "indian": ["IS 1364-3"]
+    }
+  },
+  {
+    "standard": "GOST 11371-78",
+    "title": "Plain Washer",
+    "category": "washer",
+    "sub_category": "plain_washer_normal",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/washers/11371-78.md",
+    "equivalents": {
+      "iso": ["ISO 7089", "ISO 7090"],
+      "din": ["DIN 125"],
+      "indian": ["IS 2016"]
+    }
+  },
+  {
+    "standard": "GOST 6402-70",
+    "title": "Spring Lock Washer (Grover Washer)",
+    "category": "washer",
+    "sub_category": "spring_lock_washer",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/washers/6402-70.md",
+    "equivalents": {
+      "iso": ["ISO 8738"],
+      "din": ["DIN 127"],
+      "indian": ["IS 3063"]
+    }
+  },
+  {
+    "standard": "GOST 11738-84",
+    "title": "Socket Head Cap Screw (Allen Bolt)",
+    "category": "socket_screw",
+    "sub_category": "socket_head_cap_screw",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/socket_screws/11738-84.md",
+    "equivalents": {
+      "iso": ["ISO 4762"],
+      "din": ["DIN 912"],
+      "indian": ["IS 2269"]
+    }
+  },
+  {
+    "standard": "GOST 11074-93",
+    "title": "Socket Set Screw — Flat Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_flat_point",
+    "body": "GOST",
+    "country": "Russia",
+    "path": "standards/gost/set_screws/11074-93.md",
+    "equivalents": {
+      "iso": ["ISO 4026"],
+      "din": ["DIN 913"],
+      "indian": ["IS 6094-1"]
+    }
+  },
+  {
+    "standard": "GOST 11075-93",
+    "title": "Socket Set Screw — Dog Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_dog_point",
+    "body": "GOST",
+    "country": "Russia",
+    "path": "standards/gost/set_screws/11075-93.md",
+    "equivalents": {
+      "iso": ["ISO 4028"],
+      "din": ["DIN 915"],
+      "indian": ["IS 6094-3"]
+    }
+  },
+  {
+    "standard": "GOST 50592-93",
+    "title": "Nylon Insert Lock Nut — Low Form",
+    "category": "lock_nut",
+    "sub_category": "nylon_insert_lock_nut_low_form",
+    "body": "GOST",
+    "country": "Russia",
+    "path": "standards/gost/lock_nuts/50592-93.md",
+    "equivalents": {
+      "iso": ["ISO 7040"],
+      "din": ["DIN 985"],
+      "indian": ["IS 7002"]
+    }
+  },
+  {
+    "standard": "GOST 11872-89",
+    "title": "Nylon Insert Lock Nut — High Form",
+    "category": "lock_nut",
+    "sub_category": "nylon_insert_lock_nut_high_form",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/lock_nuts/11872-89.md",
+    "equivalents": {
+      "iso": ["ISO 7041"],
+      "din": ["DIN 982"],
+      "indian": ["IS 7002"]
+    }
+  },
+  {
+    "standard": "GOST 9150-2002",
+    "title": "Metric Thread — Basic Profile",
+    "category": "thread_standard",
+    "sub_category": "thread_basic_profile",
+    "body": "GOST",
+    "country": "Russia",
+    "path": "standards/gost/thread_standards/9150-2002.md",
+    "equivalents": {
+      "iso": ["ISO 68-1"],
+      "din": [],
+      "indian": ["IS 4218-1"]
+    }
+  },
+  {
+    "standard": "GOST 8724-2002",
+    "title": "Metric Thread — Diameters and Pitches",
+    "category": "thread_standard",
+    "sub_category": "thread_diameters_pitches",
+    "body": "GOST",
+    "country": "Russia",
+    "path": "standards/gost/thread_standards/8724-2002.md",
+    "equivalents": {
+      "iso": ["ISO 261", "ISO 262"],
+      "din": [],
+      "indian": ["IS 4218-2"]
+    }
+  },
+  {
+    "standard": "GOST 24705-2004",
+    "title": "Metric Thread — Basic Dimensions",
+    "category": "thread_standard",
+    "sub_category": "thread_basic_dimensions",
+    "body": "GOST",
+    "country": "Russia",
+    "path": "standards/gost/thread_standards/24705-2004.md",
+    "equivalents": {
+      "iso": ["ISO 724"],
+      "din": [],
+      "indian": ["IS 4218-3"]
+    }
+  },
+  {
+    "standard": "GOST 1759.4-87",
+    "title": "Bolts, Screws, Studs — Mechanical Properties",
+    "category": "general_specification",
+    "sub_category": "mechanical_properties",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/general/1759.4-87.md",
+    "equivalents": {
+      "iso": ["ISO 898-1"],
+      "din": [],
+      "indian": ["IS 1367-3"]
+    }
+  },
+  {
+    "standard": "GOST 1759.5-87",
+    "title": "Nuts — Mechanical Properties",
+    "category": "general_specification",
+    "sub_category": "nut_mechanical_properties",
+    "body": "GOST",
+    "country": "USSR/Russia",
+    "path": "standards/gost/general/1759.5-87.md",
+    "equivalents": {
+      "iso": ["ISO 898-2"],
+      "din": [],
+      "indian": ["IS 1367-6"]
+    }
+  },
+  {
+    "standard": "ISO 4014",
+    "title": "Hexagon Head Bolt with Shank — Product Grades A and B",
+    "category": "bolt",
+    "sub_category": "hex_bolt_partial_thread",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/bolts/4014.md",
+    "equivalents": {
+      "gost": ["GOST 7798-70", "GOST 7817-80"],
+      "din": ["DIN 931"],
+      "indian": ["IS 1364-1"]
+    }
+  },
+  {
+    "standard": "ISO 4017",
+    "title": "Hexagon Head Screws — Full Thread",
+    "category": "bolt",
+    "sub_category": "hex_bolt_full_thread",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/bolts/4017.md",
+    "equivalents": {
+      "gost": ["GOST 7805-70"],
+      "din": ["DIN 933"],
+      "indian": ["IS 1364-2"]
+    }
+  },
+  {
+    "standard": "ISO 4016",
+    "title": "Hexagon Head Bolt — Grade C",
+    "category": "bolt",
+    "sub_category": "hex_bolt_partial_thread_grade_c",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/bolts/4016.md",
+    "equivalents": {
+      "gost": ["GOST 15589-70"],
+      "din": ["DIN 601"],
+      "indian": ["IS 1363-1"]
+    }
+  },
+  {
+    "standard": "ISO 7411",
+    "title": "High-Strength Structural Bolt — Large WAF",
+    "category": "bolt",
+    "sub_category": "structural_bolt_large_waf",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/bolts/7411.md",
+    "equivalents": {
+      "gost": ["GOST 22353-77", "GOST R 52644-2006"],
+      "din": ["DIN 6914", "EN 14399-4"],
+      "indian": ["IS 3757"]
+    }
+  },
+  {
+    "standard": "ISO 4032",
+    "title": "Hexagon Nut Style 1 — Product Grades A and B",
+    "category": "nut",
+    "sub_category": "hex_nut_style_1",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/nuts/4032.md",
+    "equivalents": {
+      "gost": ["GOST 5915-70", "GOST 5927-70"],
+      "din": ["DIN 934"],
+      "indian": ["IS 1364-3"]
+    }
+  },
+  {
+    "standard": "ISO 7040",
+    "title": "Nylon Insert Lock Nut — Low Form",
+    "category": "nut",
+    "sub_category": "nylon_insert_lock_nut_low_form",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/nuts/7040.md",
+    "equivalents": {
+      "gost": ["GOST 50592-93"],
+      "din": ["DIN 985"],
+      "indian": ["IS 7002"]
+    }
+  },
+  {
+    "standard": "ISO 7041",
+    "title": "Nylon Insert Lock Nut — High Form",
+    "category": "nut",
+    "sub_category": "nylon_insert_lock_nut_high_form",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/nuts/7041.md",
+    "equivalents": {
+      "gost": ["GOST 11872-89"],
+      "din": ["DIN 982"],
+      "indian": ["IS 7002"]
+    }
+  },
+  {
+    "standard": "ISO 7042",
+    "title": "All-Metal Prevailing Torque Lock Nut",
+    "category": "nut",
+    "sub_category": "all_metal_lock_nut",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/nuts/7042.md",
+    "equivalents": {
+      "gost": [],
+      "din": ["DIN 980"],
+      "indian": []
+    }
+  },
+  {
+    "standard": "ISO 7089",
+    "title": "Plain Washer — Normal Series (No Chamfer)",
+    "category": "washer",
+    "sub_category": "plain_washer_normal",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/washers/7089.md",
+    "equivalents": {
+      "gost": ["GOST 11371-78"],
+      "din": ["DIN 125-A"],
+      "indian": ["IS 2016"]
+    }
+  },
+  {
+    "standard": "ISO 7090",
+    "title": "Plain Washer — Normal Series (Chamfered Bore)",
+    "category": "washer",
+    "sub_category": "plain_washer_chamfered",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/washers/7090.md",
+    "equivalents": {
+      "gost": ["GOST 11371-78"],
+      "din": ["DIN 125-B"],
+      "indian": ["IS 2016"]
+    }
+  },
+  {
+    "standard": "ISO 4762",
+    "title": "Hexagon Socket Head Cap Screw",
+    "category": "socket_screw",
+    "sub_category": "socket_head_cap_screw",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/socket_screws/4762.md",
+    "equivalents": {
+      "gost": ["GOST 11738-84"],
+      "din": ["DIN 912"],
+      "indian": ["IS 2269"]
+    }
+  },
+  {
+    "standard": "ISO 7380",
+    "title": "Hexagon Socket Button Head Screw",
+    "category": "socket_screw",
+    "sub_category": "button_head_socket_screw",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/socket_screws/7380.md",
+    "equivalents": {
+      "gost": [],
+      "din": [],
+      "indian": []
+    }
+  },
+  {
+    "standard": "ISO 4026",
+    "title": "Socket Set Screw — Flat Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_flat_point",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/set_screws/4026.md",
+    "equivalents": {
+      "gost": ["GOST 11074-93"],
+      "din": ["DIN 913"],
+      "indian": ["IS 6094-1"]
+    }
+  },
+  {
+    "standard": "ISO 4027",
+    "title": "Socket Set Screw — Cone Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_cone_point",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/set_screws/4027.md",
+    "equivalents": {
+      "gost": [],
+      "din": ["DIN 914"],
+      "indian": ["IS 6094-2"]
+    }
+  },
+  {
+    "standard": "ISO 4028",
+    "title": "Socket Set Screw — Dog Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_dog_point",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/set_screws/4028.md",
+    "equivalents": {
+      "gost": ["GOST 11075-93"],
+      "din": ["DIN 915"],
+      "indian": ["IS 6094-3"]
+    }
+  },
+  {
+    "standard": "ISO 4029",
+    "title": "Socket Set Screw — Cup Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_cup_point",
+    "body": "ISO",
+    "country": "International",
+    "path": "standards/iso/set_screws/4029.md",
+    "equivalents": {
+      "gost": [],
+      "din": ["DIN 916"],
+      "indian": ["IS 6094-4"]
+    }
+  },
+  {
+    "standard": "DIN 931",
+    "title": "Hexagon Head Bolt with Shank — Metric (Withdrawn)",
+    "category": "bolt",
+    "sub_category": "hex_bolt_partial_thread",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 4014",
+    "path": "standards/din/bolts/din-931.md",
+    "equivalents": {
+      "iso": ["ISO 4014"],
+      "gost": ["GOST 7798-70"],
+      "indian": ["IS 1364-1"]
+    }
+  },
+  {
+    "standard": "DIN 933",
+    "title": "Hexagon Head Screw — Full Thread — Metric (Withdrawn)",
+    "category": "bolt",
+    "sub_category": "hex_bolt_full_thread",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 4017",
+    "path": "standards/din/bolts/din-933.md",
+    "equivalents": {
+      "iso": ["ISO 4017"],
+      "gost": ["GOST 7805-70"],
+      "indian": ["IS 1364-2"]
+    }
+  },
+  {
+    "standard": "DIN 601",
+    "title": "Hexagon Head Bolt — Grade C — Metric (Withdrawn)",
+    "category": "bolt",
+    "sub_category": "hex_bolt_partial_thread_grade_c",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 4016",
+    "path": "standards/din/bolts/din-601.md",
+    "equivalents": {
+      "iso": ["ISO 4016"],
+      "gost": ["GOST 15589-70"],
+      "indian": ["IS 1363-1"]
+    }
+  },
+  {
+    "standard": "DIN 6914",
+    "title": "High-Strength Structural Bolt — Large WAF (Withdrawn)",
+    "category": "bolt",
+    "sub_category": "structural_bolt_large_waf",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "EN 14399-4",
+    "path": "standards/din/bolts/din-6914.md",
+    "equivalents": {
+      "iso": ["ISO 7411"],
+      "gost": ["GOST 22353-77"],
+      "indian": ["IS 3757"]
+    }
+  },
+  {
+    "standard": "DIN 934",
+    "title": "Hexagon Nut Style 1 — Metric (Withdrawn)",
+    "category": "nut",
+    "sub_category": "hex_nut_style_1",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 4032",
+    "path": "standards/din/nuts/din-934.md",
+    "equivalents": {
+      "iso": ["ISO 4032"],
+      "gost": ["GOST 5915-70"],
+      "indian": ["IS 1364-3"]
+    }
+  },
+  {
+    "standard": "DIN 985",
+    "title": "Nylon Insert Lock Nut — Low Form (Withdrawn)",
+    "category": "nut",
+    "sub_category": "nylon_insert_lock_nut_low_form",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 7040",
+    "path": "standards/din/nuts/din-985.md",
+    "equivalents": {
+      "iso": ["ISO 7040"],
+      "gost": ["GOST 50592-93"],
+      "indian": ["IS 7002"]
+    }
+  },
+  {
+    "standard": "DIN 982",
+    "title": "Nylon Insert Lock Nut — High Form (Withdrawn)",
+    "category": "nut",
+    "sub_category": "nylon_insert_lock_nut_high_form",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 7041",
+    "path": "standards/din/nuts/din-982.md",
+    "equivalents": {
+      "iso": ["ISO 7041"],
+      "gost": ["GOST 11872-89"],
+      "indian": ["IS 7002"]
+    }
+  },
+  {
+    "standard": "DIN 980",
+    "title": "All-Metal Lock Nut — Stover/Oval (Withdrawn)",
+    "category": "nut",
+    "sub_category": "all_metal_lock_nut",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 7042",
+    "path": "standards/din/nuts/din-980.md",
+    "equivalents": {
+      "iso": ["ISO 7042"],
+      "gost": [],
+      "indian": []
+    }
+  },
+  {
+    "standard": "DIN 125",
+    "title": "Plain Washer — Metric (Withdrawn)",
+    "category": "washer",
+    "sub_category": "plain_washer_normal",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 7089 / ISO 7090",
+    "path": "standards/din/washers/din-125.md",
+    "equivalents": {
+      "iso": ["ISO 7089", "ISO 7090"],
+      "gost": ["GOST 11371-78"],
+      "indian": ["IS 2016"]
+    }
+  },
+  {
+    "standard": "DIN 127",
+    "title": "Spring Lock Washer (Grover) — Metric",
+    "category": "washer",
+    "sub_category": "spring_lock_washer",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "active",
+    "path": "standards/din/washers/din-127.md",
+    "equivalents": {
+      "iso": ["ISO 8738"],
+      "gost": ["GOST 6402-70"],
+      "indian": ["IS 3063"]
+    }
+  },
+  {
+    "standard": "DIN 912",
+    "title": "Socket Head Cap Screw — Metric (Withdrawn)",
+    "category": "socket_screw",
+    "sub_category": "socket_head_cap_screw",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 4762",
+    "path": "standards/din/socket_screws/din-912.md",
+    "equivalents": {
+      "iso": ["ISO 4762"],
+      "gost": ["GOST 11738-84"],
+      "indian": ["IS 2269"]
+    }
+  },
+  {
+    "standard": "DIN 913",
+    "title": "Socket Set Screw — Flat Point (Withdrawn)",
+    "category": "set_screw",
+    "sub_category": "set_screw_flat_point",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 4026",
+    "path": "standards/din/set_screws/din-913.md",
+    "equivalents": {
+      "iso": ["ISO 4026"],
+      "gost": ["GOST 11074-93"],
+      "indian": ["IS 6094-1"]
+    }
+  },
+  {
+    "standard": "DIN 914",
+    "title": "Socket Set Screw — Cone Point (Withdrawn)",
+    "category": "set_screw",
+    "sub_category": "set_screw_cone_point",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 4027",
+    "path": "standards/din/set_screws/din-914.md",
+    "equivalents": {
+      "iso": ["ISO 4027"],
+      "gost": [],
+      "indian": ["IS 6094-2"]
+    }
+  },
+  {
+    "standard": "DIN 915",
+    "title": "Socket Set Screw — Dog Point (Withdrawn)",
+    "category": "set_screw",
+    "sub_category": "set_screw_dog_point",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 4028",
+    "path": "standards/din/set_screws/din-915.md",
+    "equivalents": {
+      "iso": ["ISO 4028"],
+      "gost": ["GOST 11075-93"],
+      "indian": ["IS 6094-3"]
+    }
+  },
+  {
+    "standard": "DIN 916",
+    "title": "Socket Set Screw — Cup Point (Withdrawn)",
+    "category": "set_screw",
+    "sub_category": "set_screw_cup_point",
+    "body": "DIN",
+    "country": "Germany",
+    "status": "withdrawn",
+    "replaced_by": "ISO 4029",
+    "path": "standards/din/set_screws/din-916.md",
+    "equivalents": {
+      "iso": ["ISO 4029"],
+      "gost": [],
+      "indian": ["IS 6094-4"]
+    }
+  },
+  {
+    "standard": "IS 1364-1",
+    "title": "Hexagon Head Bolts (Partial Thread) — Part 1",
+    "category": "bolt",
+    "sub_category": "hex_bolt_partial_thread",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/bolts/is-1364-1.md",
+    "equivalents": {
+      "iso": ["ISO 4014"],
+      "gost": ["GOST 7798-70"],
+      "din": ["DIN 931"]
+    }
+  },
+  {
+    "standard": "IS 1364-2",
+    "title": "Hexagon Head Screws (Full Thread) — Part 2",
+    "category": "bolt",
+    "sub_category": "hex_bolt_full_thread",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/bolts/is-1364-2.md",
+    "equivalents": {
+      "iso": ["ISO 4017"],
+      "gost": ["GOST 7805-70"],
+      "din": ["DIN 933"]
+    }
+  },
+  {
+    "standard": "IS 1363-1",
+    "title": "Hexagon Head Bolts — Grade C (Black) — Part 1",
+    "category": "bolt",
+    "sub_category": "hex_bolt_partial_thread_grade_c",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/bolts/is-1363-1.md",
+    "equivalents": {
+      "iso": ["ISO 4016"],
+      "gost": ["GOST 15589-70"],
+      "din": ["DIN 601"]
+    }
+  },
+  {
+    "standard": "IS 3757",
+    "title": "High Strength Structural Bolts",
+    "category": "bolt",
+    "sub_category": "structural_bolt_large_waf",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/bolts/is-3757.md",
+    "equivalents": {
+      "iso": ["ISO 7411"],
+      "gost": ["GOST 22353-77"],
+      "din": ["DIN 6914"]
+    }
+  },
+  {
+    "standard": "IS 5624",
+    "title": "Foundation Bolts — Specification",
+    "category": "bolt",
+    "sub_category": "foundation_bolt",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/bolts/is-5624.md",
+    "equivalents": {
+      "iso": [],
+      "gost": ["GOST 24379.0-80", "GOST 24379.1-80"],
+      "din": ["DIN 529"],
+      "astm": ["ASTM F1554"]
+    }
+  },
+  {
+    "standard": "IS 1364-3",
+    "title": "Hexagon Nuts — Style 1 — Part 3",
+    "category": "nut",
+    "sub_category": "hex_nut_style_1",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/nuts/is-1364-3.md",
+    "equivalents": {
+      "iso": ["ISO 4032"],
+      "gost": ["GOST 5915-70"],
+      "din": ["DIN 934"]
+    }
+  },
+  {
+    "standard": "IS 7002",
+    "title": "Prevailing Torque Lock Nuts — Nylon Insert",
+    "category": "nut",
+    "sub_category": "nylon_insert_lock_nut",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/nuts/is-7002.md",
+    "equivalents": {
+      "iso": ["ISO 7040", "ISO 7041"],
+      "gost": ["GOST 50592-93", "GOST 11872-89"],
+      "din": ["DIN 985", "DIN 982"]
+    }
+  },
+  {
+    "standard": "IS 2016",
+    "title": "Plain Washers — Specification",
+    "category": "washer",
+    "sub_category": "plain_washer_normal",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/washers/is-2016.md",
+    "equivalents": {
+      "iso": ["ISO 7089", "ISO 7090"],
+      "gost": ["GOST 11371-78"],
+      "din": ["DIN 125"]
+    }
+  },
+  {
+    "standard": "IS 3063",
+    "title": "Spring Lock Washers (Helical)",
+    "category": "washer",
+    "sub_category": "spring_lock_washer",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/washers/is-3063.md",
+    "equivalents": {
+      "iso": ["ISO 8738"],
+      "gost": ["GOST 6402-70"],
+      "din": ["DIN 127"]
+    }
+  },
+  {
+    "standard": "IS 2269",
+    "title": "Socket Head Cap Screws",
+    "category": "socket_screw",
+    "sub_category": "socket_head_cap_screw",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/socket_screws/is-2269.md",
+    "equivalents": {
+      "iso": ["ISO 4762"],
+      "gost": ["GOST 11738-84"],
+      "din": ["DIN 912"]
+    }
+  },
+  {
+    "standard": "IS 6094-1",
+    "title": "Socket Set Screws — Part 1: Flat Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_flat_point",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/set_screws/is-6094-1.md",
+    "equivalents": {
+      "iso": ["ISO 4026"],
+      "gost": ["GOST 11074-93"],
+      "din": ["DIN 913"]
+    }
+  },
+  {
+    "standard": "IS 6094-2",
+    "title": "Socket Set Screws — Part 2: Cone Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_cone_point",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/set_screws/is-6094-2.md",
+    "equivalents": {
+      "iso": ["ISO 4027"],
+      "gost": [],
+      "din": ["DIN 914"]
+    }
+  },
+  {
+    "standard": "IS 6094-3",
+    "title": "Socket Set Screws — Part 3: Dog Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_dog_point",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/set_screws/is-6094-3.md",
+    "equivalents": {
+      "iso": ["ISO 4028"],
+      "gost": ["GOST 11075-93"],
+      "din": ["DIN 915"]
+    }
+  },
+  {
+    "standard": "IS 6094-4",
+    "title": "Socket Set Screws — Part 4: Cup Point",
+    "category": "set_screw",
+    "sub_category": "set_screw_cup_point",
+    "body": "BIS",
+    "country": "India",
+    "path": "standards/indian/set_screws/is-6094-4.md",
+    "equivalents": {
+      "iso": ["ISO 4029"],
+      "gost": [],
+      "din": ["DIN 916"]
+    }
+  }
+]
