@@ -1,0 +1,235 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://example.local/schemas/standard.schema.yaml"
+title: Fastener Standard Record
+type: object
+additionalProperties: false
+required:
+  - standard
+  - title
+  - category
+  - sub_category
+  - body
+  - country
+  - status
+  - confidence
+  - equivalents
+  - property_classes
+  - dimensions
+  - materials
+  - surface_treatments
+  - mechanical_properties
+  - marking
+  - testing
+  - designation_examples
+  - reliability_notes
+  - sources
+  - meta
+properties:
+  standard:
+    type: string
+  title:
+    type: string
+  category:
+    type: string
+    enum:
+      - bolt
+      - nut
+      - washer
+      - socket_screw
+      - set_screw
+      - lock_nut
+      - thread_standard
+      - general_specification
+  sub_category:
+    anyOf:
+      - type: string
+      - type: "null"
+  body:
+    type: string
+    enum: [ISO, GOST, BIS]
+  country:
+    type: string
+  status:
+    type: string
+    enum: [active, withdrawn]
+  replaced_by:
+    anyOf:
+      - type: string
+      - type: "null"
+  confidence:
+    type: string
+    enum: [high, medium, flag]
+
+  thread_range:
+    anyOf:
+      - type: string
+      - type: "null"
+  thread_tolerance:
+    anyOf:
+      - type: string
+      - type: "null"
+  product_grade:
+    anyOf:
+      - type: string
+      - type: "null"
+
+  equivalents:
+    type: object
+    additionalProperties: false
+    required: [iso, din, gost, indian]
+    properties:
+      iso:
+        type: array
+        items: { type: string }
+      din:
+        type: array
+        items: { type: string }
+      gost:
+        type: array
+        items: { type: string }
+      indian:
+        type: array
+        items: { type: string }
+
+  property_classes:
+    type: array
+    items: { type: string }
+
+  max_temperature_c:
+    anyOf:
+      - type: integer
+      - type: "null"
+  single_use:
+    type: boolean
+
+  dimensions:
+    type: object
+    additionalProperties: false
+    required: [head_type, drive, waf_notes, length_range, tolerance_grade]
+    properties:
+      head_type:
+        anyOf: [{ type: string }, { type: "null" }]
+      drive:
+        anyOf: [{ type: string }, { type: "null" }]
+      waf_notes:
+        anyOf: [{ type: string }, { type: "null" }]
+      length_range:
+        anyOf: [{ type: string }, { type: "null" }]
+      tolerance_grade:
+        anyOf: [{ type: string }, { type: "null" }]
+
+  materials:
+    type: object
+    additionalProperties: false
+    required: [primary, stainless_variants, notes]
+    properties:
+      primary:
+        type: array
+        items: { type: string }
+      stainless_variants:
+        type: array
+        items: { type: string }
+      notes:
+        anyOf: [{ type: string }, { type: "null" }]
+
+  surface_treatments:
+    type: object
+    additionalProperties: false
+    required: [available, prohibited, coating_codes, hydrogen_embrittlement_bake]
+    properties:
+      available:
+        type: array
+        items: { type: string }
+      prohibited:
+        type: array
+        items: { type: string }
+      coating_codes:
+        type: object
+      hydrogen_embrittlement_bake:
+        anyOf: [{ type: string }, { type: "null" }]
+
+  mechanical_properties:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - property_class
+        - tensile_strength_mpa
+        - yield_strength_mpa
+        - hardness_min
+        - hardness_max
+        - proof_load_mpa
+      properties:
+        property_class:
+          type: string
+        tensile_strength_mpa:
+          anyOf: [{ type: integer }, { type: "null" }]
+        yield_strength_mpa:
+          anyOf: [{ type: integer }, { type: "null" }]
+        hardness_min:
+          anyOf: [{ type: string }, { type: "null" }]
+        hardness_max:
+          anyOf: [{ type: string }, { type: "null" }]
+        proof_load_mpa:
+          anyOf: [{ type: integer }, { type: "null" }]
+
+  marking:
+    type: object
+    additionalProperties: false
+    required: [head_marking_required, class_12_9_rule, notes]
+    properties:
+      head_marking_required:
+        anyOf: [{ type: boolean }, { type: "null" }]
+      class_12_9_rule:
+        anyOf: [{ type: string }, { type: "null" }]
+      notes:
+        anyOf: [{ type: string }, { type: "null" }]
+
+  testing:
+    type: object
+    additionalProperties: false
+    required: [proof_load_test, prevailing_torque_cycles, standard_reference]
+    properties:
+      proof_load_test:
+        anyOf: [{ type: boolean }, { type: "null" }]
+      prevailing_torque_cycles:
+        anyOf: [{ type: integer }, { type: "null" }]
+      standard_reference:
+        anyOf: [{ type: string }, { type: "null" }]
+
+  designation_examples:
+    type: object
+    additionalProperties: false
+    required: [gost, iso, din, indian]
+    properties:
+      gost:
+        anyOf: [{ type: string }, { type: "null" }]
+      iso:
+        anyOf: [{ type: string }, { type: "null" }]
+      din:
+        anyOf: [{ type: string }, { type: "null" }]
+      indian:
+        anyOf: [{ type: string }, { type: "null" }]
+
+  reliability_notes:
+    type: array
+    items: { type: string }
+
+  sources:
+    type: array
+    items: { type: string }
+
+  meta:
+    type: object
+    additionalProperties: false
+    required: [source_type, legal_status, doc_version, last_updated]
+    properties:
+      source_type:
+        type: string
+      legal_status:
+        type: string
+      doc_version:
+        type: string
+      last_updated:
+        type: string

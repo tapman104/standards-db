@@ -1,0 +1,92 @@
+standard: "IS 2269"
+title: "Hexagon Socket Head Cap Screw"
+category: socket_screw
+sub_category: cap_screw
+body: BIS
+country: India
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M2-M36"
+thread_tolerance: "6g"
+product_grade: "A"
+
+equivalents:
+  iso: ["ISO 4762"]
+  din: ["DIN 912"]
+  gost: ["GOST 11738-84"]
+  indian: []
+
+property_classes: ["8.8", "10.9", "12.9"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: cylindrical
+  drive: hex_socket
+  waf_notes: null
+  length_range: null
+  tolerance_grade: "A"
+
+materials:
+  primary: ["carbon steel", "alloy steel"]
+  stainless_variants: ["A2-70", "A4-70"]
+  notes: "Per IS 1367-3. Class 12.9: S ≤ 0.035%, P ≤ 0.035%; acid pickling prohibited."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per IS 1367 and ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; mandatory for class 10.9 and 12.9"
+
+mechanical_properties:
+  - property_class: "8.8"
+    tensile_strength_mpa: 800
+    yield_strength_mpa: 640
+    hardness_min: "245 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 580
+  - property_class: "10.9"
+    tensile_strength_mpa: 1000
+    yield_strength_mpa: 900
+    hardness_min: "310 HV"
+    hardness_max: "372 HV"
+    proof_load_mpa: 830
+  - property_class: "12.9"
+    tensile_strength_mpa: 1220
+    yield_strength_mpa: 1100
+    hardness_min: "385 HV"
+    hardness_max: "435 HV"
+    proof_load_mpa: 970
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: "emboss_or_side_only"
+  notes: "Property class on socket face or side; class 12.9 embossed or side only; BIS licence number required"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "IS 1367-3"
+
+designation_examples:
+  gost: null
+  iso: "ISO 4762 — M10 × 35 — 12.9"
+  din: "DIN 912 — M10 × 35 — 12.9"
+  indian: "IS 2269 — M10 × 35 — Gr. 12.9"
+
+reliability_notes:
+  - "IS 2269 range M2–M36; ISO 4762 extends to M1.6–M64"
+  - "Dimensionally equivalent to ISO 4762; GOST 11738-84 extends to M64"
+  - "Class 12.9: acid-bath electroplating prohibited"
+
+sources:
+  - "IS 2269 BIS standard"
+  - "ISO 4762 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

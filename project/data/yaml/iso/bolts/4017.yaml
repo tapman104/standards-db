@@ -1,0 +1,109 @@
+standard: "ISO 4017"
+title: "Hexagon Head Bolt — Full Thread"
+category: bolt
+sub_category: hex_bolt_full_thread
+body: ISO
+country: International
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M1.6-M64"
+thread_tolerance: "6g"
+product_grade: "A and B"
+
+equivalents:
+  iso: []
+  din: ["DIN 933"]
+  gost: ["GOST 7805-70"]
+  indian: ["IS 1364-2"]
+
+property_classes: ["4.6", "5.6", "5.8", "8.8", "10.9", "12.9"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: hex
+  drive: external_hex
+  waf_notes: null
+  length_range: null
+  tolerance_grade: "A (M1.6-M24, short); B otherwise"
+
+materials:
+  primary: ["carbon steel", "alloy steel"]
+  stainless_variants: ["A2-70", "A4-70"]
+  notes: "Per ISO 898-1 for carbon/alloy steel; per ISO 3506 for stainless. Class 12.9: S ≤ 0.035%, P ≤ 0.035%."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; mandatory for class 10.9 and 12.9"
+
+mechanical_properties:
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "5.8"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 400
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 380
+  - property_class: "8.8"
+    tensile_strength_mpa: 800
+    yield_strength_mpa: 640
+    hardness_min: "245 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 580
+  - property_class: "10.9"
+    tensile_strength_mpa: 1000
+    yield_strength_mpa: 900
+    hardness_min: "310 HV"
+    hardness_max: "372 HV"
+    proof_load_mpa: 830
+  - property_class: "12.9"
+    tensile_strength_mpa: 1220
+    yield_strength_mpa: 1100
+    hardness_min: "385 HV"
+    hardness_max: "435 HV"
+    proof_load_mpa: 970
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: "emboss_or_side_only"
+  notes: "Property class + manufacturer code on head face; class 12.9 embossed or side only"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 898-1"
+
+designation_examples:
+  gost: "Bolt M12×50-8.8 GOST 7805-70"
+  iso: "ISO 4017 — M12 × 50 — 8.8"
+  din: "DIN 933 — M12 × 50 — 8.8"
+  indian: "IS 1364-2 — M12 × 50 — Gr. 8.8"
+
+reliability_notes:
+  - "Full thread: entire shank threaded; do not use where shear at joint interface is present — use ISO 4014 partial thread instead"
+  - "DIN 933 is direct predecessor; withdrawn and replaced by ISO 4017 but dimensions effectively identical"
+
+sources:
+  - "ISO 4017 primary standard"
+  - "ISO 898-1 mechanical properties"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

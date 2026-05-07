@@ -1,0 +1,93 @@
+standard: "DIN 601"
+title: "Hexagon Head Bolt with Shank — Grade C (Black) — Metric"
+category: bolt
+sub_category: hex_bolt_partial_thread_grade_c
+body: DIN
+country: Germany
+status: withdrawn
+replaced_by: "ISO 4016"
+confidence: high
+
+thread_range: "M5-M52"
+thread_tolerance: "8g"
+product_grade: "C"
+
+equivalents:
+  iso: ["ISO 4016"]
+  din: []
+  gost: ["GOST 15589-70"]
+  indian: ["IS 1363-1"]
+
+property_classes: ["4.6", "5.6", "5.8"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: hex
+  drive: external_hex
+  waf_notes: null
+  length_range: null
+  tolerance_grade: "C"
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: []
+  notes: "Grade C limited to property class 5.8 maximum; low-carbon steel typical"
+
+surface_treatments:
+  available: ["none", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "5.8"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 400
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 380
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: "Grade C bolts carry no property class marking; marking not required at class ≤5.8"
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 898-1"
+
+designation_examples:
+  gost: null
+  iso: "ISO 4016 — M12 × 50 — 4.6"
+  din: "DIN 601 — M12 × 50 — 4.6"
+  indian: "IS 1363-1 — M12 × 50 — Gr. 4.6"
+
+reliability_notes:
+  - "DIN 601 is withdrawn; specify ISO 4016 for all new orders"
+  - "Grade C tolerance — not interchangeable with grade A or B bolts in precision joints"
+  - "Property class limited to 5.8 maximum; class 8.8+ not available in grade C"
+  - "Length range not specified in source material; verify from primary DIN 601 or ISO 4016 document"
+
+sources:
+  - "dinmark.com.ua"
+  - "fasteners.eu"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

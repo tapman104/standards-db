@@ -1,0 +1,105 @@
+standard: "GOST 7817-80"
+title: "Hexagon Head Bolt — Product Grade A (Precision)"
+category: bolt
+sub_category: hex_bolt_partial_thread
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M1.6-M24"
+thread_tolerance: "6g"
+product_grade: "A"
+
+equivalents:
+  iso: ["ISO 4014"]
+  din: ["DIN 931"]
+  gost: []
+  indian: ["IS 1364-1"]
+
+property_classes: ["4.6", "5.6", "5.8", "8.8", "10.9"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: hex
+  drive: external_hex
+  waf_notes: "Same WAF differences vs ISO 4014 as GOST 7798-70 at M10, M12, M14, M22; applies only up to M24 for grade A"
+  length_range: null
+  tolerance_grade: "A"
+
+materials:
+  primary: ["carbon steel", "alloy steel"]
+  stainless_variants: ["A2-70", "A4-70"]
+  notes: "Grade A: tighter tolerances on shank diameter, head height, WAF, and perpendicularity vs grade B (GOST 7798-70). Often supplied bare (00) or phosphate+oil (40) to avoid plating-induced dimensional changes."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per GOST and ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; required for class 10.9"
+
+mechanical_properties:
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "5.8"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 400
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 380
+  - property_class: "8.8"
+    tensile_strength_mpa: 800
+    yield_strength_mpa: 640
+    hardness_min: "245 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 580
+  - property_class: "10.9"
+    tensile_strength_mpa: 1000
+    yield_strength_mpa: 900
+    hardness_min: "310 HV"
+    hardness_max: "372 HV"
+    proof_load_mpa: 830
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Property class + manufacturer code on head face"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 1759.4-87"
+
+designation_examples:
+  gost: "Bolt M12×50-8.8 GOST 7817-80"
+  iso: "ISO 4014 — M12 × 50 — 8.8"
+  din: "DIN 931 — M12 × 50 — 8.8"
+  indian: "IS 1364-1 — M12 × 50 — Gr. 8.8"
+
+reliability_notes:
+  - "Grade A: limited to M1.6–M24; use GOST 7798-70 for M24–M48 grade B"
+  - "Tighter tolerances than GOST 7798-70; use where close fits and minimal play required"
+  - "Matched precision nuts: GOST 5927-70 grade A (M1.6–M16)"
+  - "Plating build-up on grade A bolts can affect precision fits — specify bare or phosphate+oil for precision assemblies"
+
+sources:
+  - "GOST 7817-80 primary standard"
+  - "ISO 4014 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

@@ -1,0 +1,100 @@
+standard: "IS 7002"
+title: "Hexagon Nut with Non-Metallic Insert — Low Form and High Form (Nyloc)"
+category: lock_nut
+sub_category: nyloc
+body: BIS
+country: India
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M3-M39"
+thread_tolerance: "6H"
+product_grade: "B"
+
+equivalents:
+  iso: ["ISO 7040", "ISO 7041"]
+  din: ["DIN 985", "DIN 982"]
+  gost: ["GOST 50592-93", "GOST 11872-89"]
+  indian: []
+
+property_classes: ["5", "6", "8", "10"]
+max_temperature_c: 120
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: "B"
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Nylon insert: PA6 or PA66. Nut body: carbon steel or stainless. IS 7002 covers both Low Form (= ISO 7040 / DIN 985 / GOST 50592-93) and High Form (= ISO 7041 / DIN 982 / GOST 11872-89) in a single standard."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate"]
+  prohibited: ["hot_dip_galvanize"]
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "5"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "130 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 500
+  - property_class: "6"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "150 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 600
+  - property_class: "8"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "200 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 800
+  - property_class: "10"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "272 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1000
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Property class on side flat; BIS licence number; specify 'Low Form' or 'High Form' in designation"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: 5
+  standard_reference: "ISO 2320"
+
+designation_examples:
+  gost: null
+  iso: "ISO 7040 — M12 — 8 (Low Form)"
+  din: "DIN 985 — M12 — 8 (Low Form)"
+  indian: "IS 7002 — M12, Cl. 8, Low Form"
+
+reliability_notes:
+  - "IS 7002 is unique in covering BOTH low and high form in one standard; ISO and DIN use separate standards"
+  - "MUST specify 'Low Form' or 'High Form' when ordering under IS 7002 — absence of form designation is ambiguous"
+  - "Hot-dip galvanizing prohibited — 450 °C process destroys nylon insert"
+  - "Maximum service temperature 120 °C; above this replace with all-metal lock nut (ISO 7042 / DIN 980)"
+  - "Maximum 5 reuse cycles per ISO 2320"
+
+sources:
+  - "IS 7002 BIS standard"
+  - "ISO 7040, ISO 7041 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

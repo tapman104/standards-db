@@ -1,0 +1,76 @@
+standard: "GOST 6402-70"
+title: "Spring Lock Washer (Split Ring Washer)"
+category: washer
+sub_category: spring_lock_washer
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M2-M48"
+thread_tolerance: null
+product_grade: null
+
+equivalents:
+  iso: []
+  din: ["DIN 127"]
+  gost: []
+  indian: ["IS 3063"]
+
+property_classes: []
+max_temperature_c: null
+single_use: true
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: "Types: H (heavy), T (standard), OT (light), L (special). Type T is most common."
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["spring steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Spring steel per GOST 14959-79: grade 65G or 70G. Hardness HRC 41.5–49.5. Stainless variants: 12X18H10T (equivalent to 316Ti). Once flattened, lock function is lost — single use."
+
+surface_treatments:
+  available: ["zinc_electroplate", "phosphate_oil"]
+  prohibited: ["hot_dip_galvanize"]
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties: []
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: null
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 6402-70"
+
+designation_examples:
+  gost: "Washer 12 GOST 6402-70"
+  iso: null
+  din: "DIN 127 — B12"
+  indian: "IS 3063 — 12 mm"
+
+reliability_notes:
+  - "Single use: once flattened during tightening the spring temper is permanently lost; replace on reassembly"
+  - "Limited anti-vibration effectiveness per modern standards; DIN 65151 / VDI 2230 testing shows marginal performance"
+  - "GOST guidance: use only with bolt classes ≤ 5.8; not recommended with high-strength bolts (8.8+)"
+  - "Hot-dip galvanizing prohibited: 450 °C bath destroys spring temper"
+  - "Types H/T/OT/L differ in cross-section thickness; type T (standard) is most widely available"
+
+sources:
+  - "GOST 6402-70 primary standard"
+  - "DIN 127 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

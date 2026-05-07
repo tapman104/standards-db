@@ -1,0 +1,74 @@
+standard: "IS 2016"
+title: "Plain Washers"
+category: washer
+sub_category: plain_washer
+body: BIS
+country: India
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M1-M64"
+thread_tolerance: null
+product_grade: null
+
+equivalents:
+  iso: ["ISO 7089", "ISO 7090"]
+  din: ["DIN 125"]
+  gost: ["GOST 11371-78"]
+  indian: []
+
+property_classes: []
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: "Covers both non-chamfered (200 HV equivalent) and chamfered (300 HV equivalent) types. Specify chamfered or non-chamfered when ordering."
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Carbon steel; hardness varies by type. IS 2016 covers equivalent of both ISO 7089 (no chamfer) and ISO 7090 (chamfered) in one standard."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties: []
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: null
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "IS 2016"
+
+designation_examples:
+  gost: "Washer 12 GOST 11371-78"
+  iso: "ISO 7089 — 12 — 200 HV"
+  din: "DIN 125-A — 13"
+  indian: "IS 2016 — 13 mm"
+
+reliability_notes:
+  - "IS 2016 covers both chamfered and non-chamfered variants; must specify type when ordering"
+  - "Non-chamfered (200 HV) equivalent to ISO 7089 / DIN 125-A; for class ≤8.8"
+  - "Chamfered (300 HV) equivalent to ISO 7090 / DIN 125-B; required for class 10.9 and 12.9"
+
+sources:
+  - "IS 2016 BIS standard"
+  - "ISO 7089, ISO 7090 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

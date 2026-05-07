@@ -1,0 +1,79 @@
+standard: "IS 6094-4"
+title: "Hexagon Socket Set Screw — Cup Point"
+category: set_screw
+sub_category: cup_point
+body: BIS
+country: India
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M1.6-M24"
+thread_tolerance: "6g"
+product_grade: null
+
+equivalents:
+  iso: ["ISO 4029"]
+  din: ["DIN 916"]
+  gost: []
+  indian: []
+
+property_classes: ["45H"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: hex_socket
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["alloy steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Class 45H: alloy steel quenched and tempered, HV 450–560."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per IS 1367 and ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating"
+
+mechanical_properties:
+  - property_class: "45H"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "450 HV"
+    hardness_max: "560 HV"
+    proof_load_mpa: null
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: "Headless — class on packaging only"
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "IS 1367-3"
+
+designation_examples:
+  gost: null
+  iso: "ISO 4029 — M8 × 20 — 45H"
+  din: "DIN 916 — M8 × 20 — 45H"
+  indian: "IS 6094-4 — M8 × 20 — Cl. 45H"
+
+reliability_notes:
+  - "No GOST equivalent — no cup point set screw in GOST system"
+  - "Cup point: raised rim bites into shaft; moderate surface damage; most common general-purpose set screw style"
+
+sources:
+  - "IS 6094-4 BIS standard"
+  - "ISO 4029 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

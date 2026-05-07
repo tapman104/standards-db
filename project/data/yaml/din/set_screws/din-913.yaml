@@ -1,0 +1,79 @@
+standard: "DIN 913"
+title: "Hexagon Socket Set Screw — Flat Point"
+category: set_screw
+sub_category: set_screw_flat_point
+body: DIN
+country: Germany
+status: withdrawn
+replaced_by: "ISO 4026"
+confidence: high
+
+thread_range: "M1.4-M20"
+thread_tolerance: "6g"
+product_grade: null
+
+equivalents:
+  iso: ["ISO 4026"]
+  din: []
+  gost: ["GOST 11074-93"]
+  indian: ["IS 6094-1"]
+
+property_classes: ["45H"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: hex_socket
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["alloy steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Class 45H: alloy steel through-hardened; A2/A4 stainless available at reduced hardness"
+
+surface_treatments:
+  available: ["none", "black_oxide"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "45H"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "450 HV"
+    hardness_max: "560 HV"
+    proof_load_mpa: null
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: "Headless — class marking on socket end face where space permits"
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 898-5"
+
+designation_examples:
+  gost: "Screw M8×20 GOST 11074-93"
+  iso: "ISO 4026 — M8 × 20"
+  din: "DIN 913 — M8 × 20"
+  indian: "IS 6094-1 — M8 × 20"
+
+reliability_notes:
+  - "DIN 913 is withdrawn; specify ISO 4026 for all new orders"
+  - "Flat point: minimal shaft surface damage; lowest holding force of all set screw types"
+  - "Recommended for use against hardened shafts or where shaft marking must be minimised"
+
+sources:
+  - "dinmark.com.ua"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

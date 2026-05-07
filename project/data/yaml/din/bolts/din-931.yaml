@@ -1,0 +1,112 @@
+standard: "DIN 931"
+title: "Hexagon Head Bolt with Shank (Partial Thread) — Metric"
+category: bolt
+sub_category: hex_bolt_partial_thread
+body: DIN
+country: Germany
+status: withdrawn
+replaced_by: "ISO 4014"
+confidence: high
+
+thread_range: "M3-M52"
+thread_tolerance: "6g"
+product_grade: "B"
+
+equivalents:
+  iso: ["ISO 4014"]
+  din: []
+  gost: ["GOST 7798-70", "GOST 7817-80"]
+  indian: ["IS 1364-1"]
+
+property_classes: ["4.6", "5.6", "5.8", "8.8", "10.9", "12.9"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: hex
+  drive: external_hex
+  waf_notes: "WAF larger than ISO 4014 at M10 (17 vs 16 mm), M12 (19 vs 18 mm), M14 (22 vs 21 mm); WAF smaller at M22 (32 vs 34 mm). Verify spanner/socket compatibility before substituting ISO 4014 at these four sizes."
+  length_range: null
+  tolerance_grade: "B"
+
+materials:
+  primary: ["carbon steel", "alloy steel"]
+  stainless_variants: ["A2-70", "A4-70"]
+  notes: "Class 12.9: S ≤ 0.035%, P ≤ 0.035% mandatory; acid-bath electroplating prohibited for class 12.9"
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; mandatory for class 10.9 and 12.9"
+
+mechanical_properties:
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "5.8"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 400
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 380
+  - property_class: "8.8"
+    tensile_strength_mpa: 800
+    yield_strength_mpa: 640
+    hardness_min: "245 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 580
+  - property_class: "10.9"
+    tensile_strength_mpa: 1000
+    yield_strength_mpa: 900
+    hardness_min: "310 HV"
+    hardness_max: "372 HV"
+    proof_load_mpa: 830
+  - property_class: "12.9"
+    tensile_strength_mpa: 1220
+    yield_strength_mpa: 1100
+    hardness_min: "385 HV"
+    hardness_max: "435 HV"
+    proof_load_mpa: 970
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: "emboss_or_side_only"
+  notes: "Property class + manufacturer code on head face; class 12.9 must use embossed or side-face marking only"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 898-1"
+
+designation_examples:
+  gost: "Bolt M12×50-8.8 GOST 7798-70"
+  iso: "ISO 4014 — M12 × 50 — 8.8"
+  din: "DIN 931 — M12 × 50 — 8.8"
+  indian: "IS 1364-1 — M12 × 50 — Gr. 8.8"
+
+reliability_notes:
+  - "DIN 931 is withdrawn; specify ISO 4014 for all new orders"
+  - "WAF differences at M10, M12, M14, M22 — verify socket/spanner compatibility before substituting ISO 4014 for DIN 931"
+  - "GOST 7798-70 = Grade B (M6–M48); GOST 7817-80 = Grade A (M1.6–M24)"
+  - "DIN 931 thread range starts at M3; GOST 7798-70 starts at M6"
+  - "Length range not specified in source material; verify from primary standard"
+
+sources:
+  - "dinmark.com.ua"
+  - "fasteners.eu"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

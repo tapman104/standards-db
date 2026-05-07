@@ -1,0 +1,103 @@
+standard: "IS 1364-3"
+title: "Hexagon Nut — Style 1 (Identical to ISO 4032)"
+category: nut
+sub_category: hex_nut_style1
+body: BIS
+country: India
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M1-M64"
+thread_tolerance: "6H"
+product_grade: "A and B"
+
+equivalents:
+  iso: ["ISO 4032"]
+  din: ["DIN 934"]
+  gost: ["GOST 5915-70", "GOST 5927-70"]
+  indian: []
+
+property_classes: ["5", "6", "8", "10", "12"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: "A (M1-M16); B (M16-M64)"
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Declared IDENTICAL to ISO 4032 by BIS. Dimensions, tolerances, and mechanical properties identical to ISO 4032."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "5"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "130 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 500
+  - property_class: "6"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "150 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 600
+  - property_class: "8"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "200 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 800
+  - property_class: "10"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "272 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1000
+  - property_class: "12"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "295 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1200
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Property class on side flat; BIS licence number required; identical to ISO 4032 marking practice"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "IS 1367-6"
+
+designation_examples:
+  gost: null
+  iso: "ISO 4032 — M12 — 8"
+  din: "DIN 934 — M12 — 8"
+  indian: "IS 1364-3 — M12, Cl. 8"
+
+reliability_notes:
+  - "BIS has declared IS 1364-3 IDENTICAL to ISO 4032 — dimensionally and mechanically fully interchangeable"
+  - "GOST 5915-70 (grade B) and GOST 5927-70 (grade A, M1.6–M16) are functional equivalents but not declared identical"
+
+sources:
+  - "IS 1364-3 BIS standard"
+  - "ISO 4032 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

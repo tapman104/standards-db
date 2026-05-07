@@ -1,0 +1,99 @@
+standard: "DIN 982"
+title: "Hexagon Lock Nut with Nylon Insert — High Form (Nyloc)"
+category: nut
+sub_category: nyloc_high
+body: DIN
+country: Germany
+status: withdrawn
+replaced_by: "ISO 7041"
+confidence: high
+
+thread_range: "M3-M39"
+thread_tolerance: "6H"
+product_grade: "B"
+
+equivalents:
+  iso: ["ISO 7041"]
+  din: []
+  gost: ["GOST 11872-89"]
+  indian: ["IS 7002"]
+
+property_classes: ["5", "6", "8", "10"]
+max_temperature_c: 120
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: "B"
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Nylon insert: PA6 or PA66 (polyamide); taller than DIN 985 low-form for greater thread engagement"
+
+surface_treatments:
+  available: ["none", "zinc_electroplate"]
+  prohibited: ["hot_dip_galvanize"]
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "5"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "130 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 500
+  - property_class: "6"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "150 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 600
+  - property_class: "8"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "200 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 800
+  - property_class: "10"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "272 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1000
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Property class on side flat; nylon insert end is always the top of the joint"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: 5
+  standard_reference: "ISO 2320"
+
+designation_examples:
+  gost: "Nut M12-8 GOST 11872-89"
+  iso: "ISO 7041 — M12 — 8"
+  din: "DIN 982 — M12 — 8"
+  indian: "IS 7002 — M12, Cl. 8, High Form"
+
+reliability_notes:
+  - "DIN 982 is withdrawn; specify ISO 7041 for all new orders"
+  - "Hot-dip galvanizing prohibited — 450 °C process destroys nylon insert"
+  - "Maximum service temperature 120 °C continuous; use ISO 7042 (all-metal) above 120 °C"
+  - "Maximum 5 reuse cycles; replace if prevailing torque falls below ISO 2320 minimum"
+  - "IS 7002 covers both DIN 982 (high form) and DIN 985 (low form) in a single standard — specify form explicitly"
+
+sources:
+  - "dinmark.com.ua"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

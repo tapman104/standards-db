@@ -1,0 +1,98 @@
+standard: "GOST 11074-93"
+title: "Hexagon Socket Set Screw — Flat End"
+category: set_screw
+sub_category: flat_end
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M1.6-M24"
+thread_tolerance: "6g"
+product_grade: null
+
+equivalents:
+  iso: ["ISO 4026"]
+  din: ["DIN 913"]
+  gost: []
+  indian: ["IS 6094-1"]
+
+property_classes: ["14H", "22H", "33H", "45H"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: hex_socket
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["carbon steel", "alloy steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Class 14H/22H: low-medium carbon steel. Class 33H: medium-carbon alloy. Class 45H: alloy steel quenched and tempered (HV 450–560). Higher classes for harder shaft/seat materials."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; relevant for class 45H"
+
+mechanical_properties:
+  - property_class: "14H"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "140 HV"
+    hardness_max: null
+    proof_load_mpa: null
+  - property_class: "22H"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "220 HV"
+    hardness_max: null
+    proof_load_mpa: null
+  - property_class: "33H"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "330 HV"
+    hardness_max: null
+    proof_load_mpa: null
+  - property_class: "45H"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "450 HV"
+    hardness_max: "560 HV"
+    proof_load_mpa: null
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: "No head face marking (headless design); class identification on packaging only"
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 11074-93"
+
+designation_examples:
+  gost: "Screw M8×20-45H GOST 11074-93"
+  iso: "ISO 4026 — M8 × 20 — 45H"
+  din: "DIN 913 — M8 × 20 — 45H"
+  indian: "IS 6094-1 — M8 × 20 — Cl. 45H"
+
+reliability_notes:
+  - "GOST 11074-93 offers 4 hardness classes (14H/22H/33H/45H) vs single 45H in ISO 4026/DIN 913 — wider material selection"
+  - "Flat end provides lowest surface damage to soft shaft materials; no shaft recess required"
+  - "Class 45H required for steel shafts; lower classes suitable for brass, aluminium, plastic shafts"
+
+sources:
+  - "GOST 11074-93 primary standard"
+  - "ISO 4026 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

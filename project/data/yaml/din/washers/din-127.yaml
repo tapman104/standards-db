@@ -1,0 +1,83 @@
+standard: "DIN 127"
+title: "Spring Lock Washer (Grover Washer) — Metric"
+category: washer
+sub_category: spring_lock_washer
+body: DIN
+country: Germany
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M2-M48"
+thread_tolerance: null
+product_grade: null
+
+equivalents:
+  iso: ["ISO 8738"]
+  din: []
+  gost: ["GOST 6402-70"]
+  indian: ["IS 3063"]
+
+property_classes: []
+max_temperature_c: null
+single_use: true
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["spring steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Spring steel 65G or similar; hardness 41.5–49.5 HRC. DIN 127-A: standard width; DIN 127-B: metric series (most common)."
+
+surface_treatments:
+  available: ["none", "black_oxide", "zinc_electroplate_light"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "spring"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "41.5 HRC"
+    hardness_max: "49.5 HRC"
+    proof_load_mpa: null
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: "No marking required; once compressed flat the washer is spent — discard and replace"
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "DIN 127"
+
+designation_examples:
+  gost: "Washer 12 GOST 6402-70"
+  iso: "ISO 8738 — 12"
+  din: "DIN 127-B — 12"
+  indian: "IS 3063 — 12"
+
+reliability_notes:
+  - "DIN 127 remains active in German industrial drawing practice despite ISO harmonisation"
+  - "Single-use: once compressed flat by tightening, spring energy is spent — replace before re-torquing"
+  - "NOT recommended for class 8.8+ bolt connections under vibration — Junker vibration test shows limited effectiveness"
+  - "Use only with property class ≤5.8 per GOST 6402-70 guidance"
+  - "DIN 127 covers M2–M100; GOST 6402-70 covers M2–M48 only"
+
+sources:
+  - "dinmark.com.ua"
+  - "ISO 8738 scope"
+  - "GOST 6402-70 documentation"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

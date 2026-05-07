@@ -1,0 +1,81 @@
+standard: "ISO 7411"
+title: "Hexagon Head Bolt with Large Width Across Flats — Structural Grade"
+category: bolt
+sub_category: structural_bolt_large_waf
+body: ISO
+country: International
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M12-M36"
+thread_tolerance: "6g"
+product_grade: "C"
+
+equivalents:
+  iso: []
+  din: ["DIN 6914"]
+  gost: ["GOST 22353-77", "GOST R 52644-2006"]
+  indian: ["IS 3757"]
+
+property_classes: ["10.9"]
+max_temperature_c: null
+single_use: true
+
+dimensions:
+  head_type: hex
+  drive: external_hex
+  waf_notes: "WAF larger than standard ISO 4014 at equivalent nominal diameter; larger bearing area on structural steel and facilitates controlled tightening with torque/angle method"
+  length_range: null
+  tolerance_grade: "C"
+
+materials:
+  primary: ["alloy steel"]
+  stainless_variants: []
+  notes: "Alloy steel quenched and tempered, class 10.9 minimum. High consistency of mechanical properties required for reliable pretensioning. No stainless variant in ISO 7411."
+
+surface_treatments:
+  available: ["none", "hot_dip_galvanize", "zinc_electroplate"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; mandatory for class 10.9"
+
+mechanical_properties:
+  - property_class: "10.9"
+    tensile_strength_mpa: 1000
+    yield_strength_mpa: 900
+    hardness_min: "310 HV"
+    hardness_max: "372 HV"
+    proof_load_mpa: 830
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Class 10.9 + manufacturer code; structural bolt identification required for traceability"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 898-1"
+
+designation_examples:
+  gost: "Bolt M20×65-10.9 GOST R 52644-2006"
+  iso: "ISO 7411 — M20 × 65 — 10.9"
+  din: "DIN 6914 — M20 × 65 — 10.9"
+  indian: "IS 3757 — M20 × 65 — Gr. 10.9S"
+
+reliability_notes:
+  - "Single-use: once pretensioned to proof load, do not reuse; discard entire assembly after removal"
+  - "Must be installed with matching structural nut (ISO 7042 or equivalent) and structural washer"
+  - "Torque-method or combined torque-angle method required; verify with project specifications"
+  - "DIN 6914 is direct predecessor; replaced by EN 14399-4 in European context"
+
+sources:
+  - "ISO 7411 primary standard"
+  - "ISO 898-1 mechanical properties"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

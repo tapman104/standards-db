@@ -1,0 +1,73 @@
+standard: "ISO 7089"
+title: "Plain Washer — Normal Series, No Chamfer, 200 HV"
+category: washer
+sub_category: plain_washer
+body: ISO
+country: International
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M1-M64"
+thread_tolerance: null
+product_grade: "A"
+
+equivalents:
+  iso: []
+  din: ["DIN 125-A"]
+  gost: ["GOST 11371-78"]
+  indian: ["IS 2016"]
+
+property_classes: []
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: "No chamfer on either face; both faces flat. 200 HV hardness. Normal (standard) outer diameter series."
+  length_range: null
+  tolerance_grade: "A"
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "200 HV: lightly hardened. Suitable for use with bolt classes up to 8.8 without permanent deformation under clamp load."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties: []
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: null
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 7089"
+
+designation_examples:
+  gost: "Washer 12 GOST 11371-78"
+  iso: "ISO 7089 — 12 — 200 HV"
+  din: "DIN 125-A — 13"
+  indian: "IS 2016 — 13 mm"
+
+reliability_notes:
+  - "200 HV: suitable with bolt classes up to 8.8; for class 10.9/12.9 use ISO 7090 (300 HV) to prevent washer embedment"
+  - "No chamfer version — either face can be assembly bearing face"
+  - "DIN 125-A is direct predecessor; effectively identical"
+
+sources:
+  - "ISO 7089 primary standard"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

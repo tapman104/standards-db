@@ -1,0 +1,80 @@
+standard: "DIN 914"
+title: "Hexagon Socket Set Screw — Cone Point"
+category: set_screw
+sub_category: set_screw_cone_point
+body: DIN
+country: Germany
+status: withdrawn
+replaced_by: "ISO 4027"
+confidence: high
+
+thread_range: "M1.4-M20"
+thread_tolerance: "6g"
+product_grade: null
+
+equivalents:
+  iso: ["ISO 4027"]
+  din: []
+  gost: []
+  indian: ["IS 6094-2"]
+
+property_classes: ["45H"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: hex_socket
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["alloy steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Class 45H: alloy steel through-hardened; cone tip bites into shaft — high holding force but causes permanent shaft indentation"
+
+surface_treatments:
+  available: ["none", "black_oxide"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "45H"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "450 HV"
+    hardness_max: "560 HV"
+    proof_load_mpa: null
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: "Headless — class marking on socket end face where space permits"
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 898-5"
+
+designation_examples:
+  gost: null
+  iso: "ISO 4027 — M8 × 20"
+  din: "DIN 914 — M8 × 20"
+  indian: "IS 6094-2 — M8 × 20"
+
+reliability_notes:
+  - "DIN 914 is withdrawn; specify ISO 4027 for all new orders"
+  - "No confirmed GOST equivalent; Russian drawings specify ISO 4027 directly"
+  - "Cone point causes significant permanent shaft indentation; poor reusability"
+  - "Not for use in assemblies requiring frequent disassembly — prefer dog point (ISO 4028) where shaft recess can be machined"
+
+sources:
+  - "dinmark.com.ua"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

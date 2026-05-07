@@ -1,0 +1,94 @@
+standard: "GOST 24379.1-80"
+title: "Foundation Bolts — Dimensions and Types"
+category: bolt
+sub_category: foundation_bolt
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M12-M125"
+thread_tolerance: "6g"
+product_grade: null
+
+equivalents:
+  iso: []
+  din: ["DIN 529"]
+  gost: []
+  indian: ["IS 5624"]
+
+property_classes: ["4.6", "5.6", "8.8"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: "150-5000 mm"
+  tolerance_grade: null
+
+materials:
+  primary: ["carbon steel", "alloy steel"]
+  stainless_variants: []
+  notes: "Steel 10/20 for class 4.6–5.6; Steel 35/40X for class 8.8. Seven bolt types (straight, L-bend, J-hook, plate anchor, removable sleeve, double-end threaded, composite)."
+
+surface_treatments:
+  available: ["none", "hot_dip_galvanize", "zinc_electroplate", "epoxy_coating"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; required for class 8.8"
+
+mechanical_properties:
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "8.8"
+    tensile_strength_mpa: 800
+    yield_strength_mpa: 640
+    hardness_min: "245 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 580
+
+marking:
+  head_marking_required: null
+  class_12_9_rule: null
+  notes: "Property class on exposed thread end or attached tag; type designation (1–7) and GOST 24379 identification required"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 1759.4-87"
+
+designation_examples:
+  gost: "Bolt 2 M20×600-5.6 GOST 24379.1-80"
+  iso: null
+  din: null
+  indian: "IS 5624 — Type 2, M20 × 600, Gr. 5.6"
+
+reliability_notes:
+  - "Companion standard to GOST 24379.0-80 (general specifications)"
+  - "7 bolt types: 1=straight, 2=L-bend, 3=J-hook, 4=plate anchor, 5=removable sleeve, 6=double-end threaded, 7=composite"
+  - "GOST 24379.1-80 covers M12–M125; IS 5624 covers up to M100 (Types A–G)"
+  - "No direct ISO equivalent; ASTM F1554 approximate for inch-thread projects"
+
+sources:
+  - "GOST 24379.1-80 primary standard"
+  - "IS 5624 BIS documentation"
+  - "ASTM F1554 scope"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

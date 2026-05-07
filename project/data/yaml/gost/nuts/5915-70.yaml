@@ -1,0 +1,104 @@
+standard: "GOST 5915-70"
+title: "Hexagon Nut — Style 1, Product Grade B"
+category: nut
+sub_category: hex_nut_style1
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M1.6-M64"
+thread_tolerance: "6H"
+product_grade: "B"
+
+equivalents:
+  iso: ["ISO 4032"]
+  din: ["DIN 934"]
+  gost: []
+  indian: ["IS 1364-3"]
+
+property_classes: ["5", "6", "8", "10", "12"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: "B"
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Grade B: standard tolerance. Paired with bolts GOST 7798-70 (partial thread) or GOST 7805-70 (full thread). For grade A precision nuts use GOST 5927-70."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "5"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "130 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 500
+  - property_class: "6"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "150 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 600
+  - property_class: "8"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "200 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 800
+  - property_class: "10"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "272 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1000
+  - property_class: "12"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "295 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1200
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Property class on side flat; manufacturer code required for class 8 and above"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 1759.5-87"
+
+designation_examples:
+  gost: "Nut M12-8 GOST 5915-70"
+  iso: "ISO 4032 — M12 — 8"
+  din: "DIN 934 — M12 — 8"
+  indian: "IS 1364-3 — M12, Cl. 8"
+
+reliability_notes:
+  - "Grade B tolerance — standard general engineering use"
+  - "Grade A precision nuts: GOST 5927-70 (limited to M1.6–M16)"
+  - "IS 1364-3 declared IDENTICAL to ISO 4032 by BIS; GOST 5915-70 is functionally equivalent but not declared identical"
+
+sources:
+  - "GOST 5915-70 primary standard"
+  - "ISO 4032 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

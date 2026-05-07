@@ -1,0 +1,83 @@
+standard: "GOST 22353-77"
+title: "High-Strength Hexagon Head Bolt for Steel Structures"
+category: bolt
+sub_category: structural_bolt_large_waf
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M12-M36"
+thread_tolerance: "6g"
+product_grade: "C"
+
+equivalents:
+  iso: ["ISO 7411"]
+  din: ["DIN 6914"]
+  gost: []
+  indian: ["IS 3757"]
+
+property_classes: ["10.9"]
+max_temperature_c: null
+single_use: true
+
+dimensions:
+  head_type: hex
+  drive: external_hex
+  waf_notes: "Enlarged WAF vs standard ISO 4014 hex bolt at same nominal diameter; designed to accommodate structural wrench and matched nut GOST 22354"
+  length_range: null
+  tolerance_grade: "C"
+
+materials:
+  primary: ["alloy steel"]
+  stainless_variants: []
+  notes: "Alloy steel quenched and tempered. Typical grades: 40X, 35HGSA. Minimum property class 10.9. S ≤ 0.035%, P ≤ 0.035%."
+
+surface_treatments:
+  available: ["none", "hot_dip_galvanize", "zinc_electroplate"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; required for class 10.9"
+
+mechanical_properties:
+  - property_class: "10.9"
+    tensile_strength_mpa: 1000
+    yield_strength_mpa: 900
+    hardness_min: "310 HV"
+    hardness_max: "372 HV"
+    proof_load_mpa: 830
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Property class 10.9 + manufacturer code on head; lot traceability required for structural assemblies"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 1759.4-87"
+
+designation_examples:
+  gost: "Bolt M20×65-10.9 GOST 22353-77"
+  iso: "ISO 7411 — M20 × 65 — 10.9"
+  din: "DIN 6914 — M20 × 65 — 10.9"
+  indian: "IS 3757 — M20 × 65 — Gr. 10.9S"
+
+reliability_notes:
+  - "Single-use: do not reuse after controlled pretensioning — permanent plastic deformation in bolt shank"
+  - "Must be installed as complete assembly: GOST 22353-77 bolt + GOST 22354 nut + GOST 22355 washer"
+  - "IS 3757 uses suffix S (structural) grade designation: 8.8S and 10.9S"
+  - "GOST R 52644-2006 is the modern Russian Federation update to this standard"
+  - "Length range not specified in source material; verify from primary GOST document"
+
+sources:
+  - "GOST 22353-77 primary standard"
+  - "ISO 7411 cross-reference"
+  - "IS 3757 BIS documentation"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

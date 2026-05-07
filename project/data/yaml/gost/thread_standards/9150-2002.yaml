@@ -1,0 +1,73 @@
+standard: "GOST 9150-2002"
+title: "Unified System of Tolerances — Metric Thread Basic Profile (60°)"
+category: thread_standard
+sub_category: thread_profile
+body: GOST
+country: Russia
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: null
+thread_tolerance: null
+product_grade: null
+
+equivalents:
+  iso: ["ISO 68-1"]
+  din: []
+  gost: []
+  indian: ["IS 4218-1"]
+
+property_classes: []
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: []
+  stainless_variants: []
+  notes: null
+
+surface_treatments:
+  available: []
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties: []
+
+marking:
+  head_marking_required: null
+  class_12_9_rule: null
+  notes: null
+
+testing:
+  proof_load_test: null
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 9150-2002"
+
+designation_examples:
+  gost: null
+  iso: null
+  din: null
+  indian: null
+
+reliability_notes:
+  - "Defines 60° V-thread basic profile; adopted as identical to ISO 68-1 for Russian national standardization"
+  - "Foundation standard; all metric fastener thread forms must conform to this profile"
+
+sources:
+  - "GOST 9150-2002 primary standard"
+  - "ISO 68-1 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

@@ -1,0 +1,87 @@
+standard: "IS 3757"
+title: "High-Strength Structural Bolt"
+category: bolt
+sub_category: structural_bolt_large_waf
+body: BIS
+country: India
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M16-M36"
+thread_tolerance: "6g"
+product_grade: "C"
+
+equivalents:
+  iso: ["ISO 7411"]
+  din: ["DIN 6914"]
+  gost: ["GOST 22353-77", "GOST R 52644-2006"]
+  indian: []
+
+property_classes: ["8.8S", "10.9S"]
+max_temperature_c: null
+single_use: true
+
+dimensions:
+  head_type: hex
+  drive: external_hex
+  waf_notes: "Enlarged WAF vs standard hex bolt; S-suffix (structural) = enhanced mechanical property controls and ductility requirements"
+  length_range: null
+  tolerance_grade: "C"
+
+materials:
+  primary: ["alloy steel"]
+  stainless_variants: []
+  notes: "S-suffix (structural) property class: enhanced requirements for yield-to-tensile ratio, ductility, and impact toughness vs standard ISO 898-1 classes 8.8/10.9. Assembly: IS 6623 nut + IS 6649 washer."
+
+surface_treatments:
+  available: ["none", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per IS 1367 and ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; mandatory for class 10.9S"
+
+mechanical_properties:
+  - property_class: "8.8S"
+    tensile_strength_mpa: 800
+    yield_strength_mpa: 640
+    hardness_min: "245 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 580
+  - property_class: "10.9S"
+    tensile_strength_mpa: 1000
+    yield_strength_mpa: 900
+    hardness_min: "310 HV"
+    hardness_max: "372 HV"
+    proof_load_mpa: 830
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "IS 3757 marking + property class + BIS licence number; S-suffix indicates structural grade"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "IS 1367-3"
+
+designation_examples:
+  gost: null
+  iso: "ISO 7411 — M20 × 65 — 10.9"
+  din: "DIN 6914 — M20 × 65 — 10.9"
+  indian: "IS 3757 — M20 × 65 — Gr. 10.9S"
+
+reliability_notes:
+  - "S-suffix (structural) = tighter ductility and yield ratio requirements vs standard class 8.8/10.9"
+  - "Single-use: do not reuse after pretensioning"
+  - "Must be installed as complete assembly per IS 4000 (Code of Practice): IS 3757 bolt + IS 6623 nut + IS 6649 washer"
+  - "Thread range starts at M16 (vs M12 for ISO 7411); smaller sizes not specified for structural use in IS system"
+
+sources:
+  - "IS 3757 BIS standard"
+  - "ISO 7411 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

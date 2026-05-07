@@ -1,0 +1,93 @@
+standard: "GOST 24379.0-80"
+title: "Foundation Bolts — General Specifications"
+category: general_specification
+sub_category: foundation_bolt_general_spec
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: null
+thread_tolerance: "6g"
+product_grade: null
+
+equivalents:
+  iso: []
+  din: ["DIN 529"]
+  gost: []
+  indian: ["IS 5624"]
+
+property_classes: ["4.6", "5.6", "8.8"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["carbon steel", "alloy steel"]
+  stainless_variants: []
+  notes: "Steel 10/20 for class 4.6–5.6; Steel 35/40X for class 8.8. Umbrella specification — see GOST 24379.1-80 for dimensional types."
+
+surface_treatments:
+  available: ["none", "hot_dip_galvanize", "zinc_electroplate", "epoxy_coating"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: "Per ISO 4042: bake at 200 °C minimum for 4 h within 4 h of electroplating; required for class 8.8"
+
+mechanical_properties:
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "8.8"
+    tensile_strength_mpa: 800
+    yield_strength_mpa: 640
+    hardness_min: "245 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 580
+
+marking:
+  head_marking_required: null
+  class_12_9_rule: null
+  notes: "Property class on exposed thread end or tag; manufacturer code required for class 8.8; GOST 24379 identification required"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 1759.4-87"
+
+designation_examples:
+  gost: "Bolt 1 M20×600-4.6 GOST 24379.0-80"
+  iso: null
+  din: null
+  indian: "IS 5624 — Type 1, M20 × 600, Gr. 4.6"
+
+reliability_notes:
+  - "Umbrella specification — dimensional types and sizes defined in companion standard GOST 24379.1-80"
+  - "No direct ISO equivalent; ASTM F1554 is approximate US equivalent (inch thread)"
+  - "Foundation bolts most commonly class 4.6 or 5.6; class 8.8 for heavy machinery and seismic zones"
+  - "Embedded portions rely on alkaline concrete environment for passivation; HDG standard for exposed sections"
+
+sources:
+  - "GOST 24379.0-80 primary standard"
+  - "IS 5624 BIS documentation"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

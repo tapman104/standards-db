@@ -1,0 +1,93 @@
+standard: "GOST 15589-70"
+title: "Hexagon Head Bolt — Product Grade C (Black Bolt)"
+category: bolt
+sub_category: hex_bolt_partial_thread_grade_c
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: medium
+
+thread_range: "M5-M64"
+thread_tolerance: "8g"
+product_grade: "C"
+
+equivalents:
+  iso: ["ISO 4016"]
+  din: ["DIN 601"]
+  gost: []
+  indian: ["IS 1363-1"]
+
+property_classes: ["4.6", "5.6", "5.8"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: hex
+  drive: external_hex
+  waf_notes: "Grade C WAF dimensions at specific sizes should be verified between GOST 15589-70 and IS 1363-1 before treating as drop-in equivalents"
+  length_range: null
+  tolerance_grade: "C"
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: []
+  notes: "Grade C limited to property class 5.8 maximum. Steel 10/20 for class 4.6; Steel 20/35 for class 5.6/5.8"
+
+surface_treatments:
+  available: ["none", "hot_dip_galvanize", "zinc_electroplate"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "5.8"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 400
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 380
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: "Grade C bolts carry no property class marking per GOST practice"
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 1759.4-87"
+
+designation_examples:
+  gost: "Bolt M12×50-5.8 GOST 15589-70"
+  iso: "ISO 4016 — M12 × 50 — 5.8"
+  din: "DIN 601 — M12 × 50 — 5.8"
+  indian: "IS 1363-1 — M12 × 50 — Gr. 5.8"
+
+reliability_notes:
+  - "Confidence: medium — verify WAF dimensions against IS 1363-1 at specific sizes before treating as drop-in equivalent"
+  - "Grade C tolerance — not interchangeable with grade A or B bolts in precision joints"
+  - "Property class limited to 5.8 maximum; class 8.8+ not available in grade C"
+  - "Length range not specified in source material; verify from primary GOST document"
+
+sources:
+  - "GOST 15589-70 primary standard"
+  - "ISO 4016 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

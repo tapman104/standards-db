@@ -1,0 +1,135 @@
+standard: "GOST 1759.4-87"
+title: "Bolts, Screws, Studs — Mechanical Properties (Property Classes)"
+category: general_specification
+sub_category: mechanical_properties_bolts
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: null
+thread_tolerance: null
+product_grade: null
+
+equivalents:
+  iso: ["ISO 898-1"]
+  din: []
+  gost: []
+  indian: ["IS 1367-3"]
+
+property_classes: ["3.6", "4.6", "4.8", "5.6", "5.8", "6.8", "8.8", "9.8", "10.9", "12.9"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: []
+  stainless_variants: []
+  notes: "General specification defining material requirements per property class. See individual fastener standards for specific steel grades."
+
+surface_treatments:
+  available: []
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "3.6"
+    tensile_strength_mpa: 300
+    yield_strength_mpa: 180
+    hardness_min: "90 HV"
+    hardness_max: "172 HV"
+    proof_load_mpa: 180
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "4.8"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 320
+    hardness_min: "130 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 310
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "5.8"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 400
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 380
+  - property_class: "6.8"
+    tensile_strength_mpa: 600
+    yield_strength_mpa: 480
+    hardness_min: "190 HV"
+    hardness_max: "250 HV"
+    proof_load_mpa: 440
+  - property_class: "8.8"
+    tensile_strength_mpa: 800
+    yield_strength_mpa: 640
+    hardness_min: "245 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 580
+  - property_class: "9.8"
+    tensile_strength_mpa: 900
+    yield_strength_mpa: 720
+    hardness_min: "290 HV"
+    hardness_max: "360 HV"
+    proof_load_mpa: 650
+  - property_class: "10.9"
+    tensile_strength_mpa: 1000
+    yield_strength_mpa: 900
+    hardness_min: "310 HV"
+    hardness_max: "372 HV"
+    proof_load_mpa: 830
+  - property_class: "12.9"
+    tensile_strength_mpa: 1220
+    yield_strength_mpa: 1100
+    hardness_min: "385 HV"
+    hardness_max: "435 HV"
+    proof_load_mpa: 970
+
+marking:
+  head_marking_required: null
+  class_12_9_rule: "emboss_or_side_only"
+  notes: "Class 12.9: embossed or side-face marking only — no stamped/depressed markings to avoid stress risers"
+
+testing:
+  proof_load_test: null
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 1759.4-87"
+
+designation_examples:
+  gost: null
+  iso: null
+  din: null
+  indian: null
+
+reliability_notes:
+  - "Reference standard for all GOST bolt/screw/stud mechanical property requirements"
+  - "Equivalent to ISO 898-1; property class system identical"
+  - "Class 12.9: S ≤ 0.035%, P ≤ 0.035% mandatory; acid-bath electroplating prohibited"
+  - "9.8 class not available in many national supply chains; often replaced by 10.9"
+
+sources:
+  - "GOST 1759.4-87 primary standard"
+  - "ISO 898-1 published mechanical property values"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

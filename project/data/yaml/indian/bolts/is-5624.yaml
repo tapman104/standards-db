@@ -1,0 +1,92 @@
+standard: "IS 5624"
+title: "Foundation Bolts"
+category: bolt
+sub_category: foundation_bolt
+body: BIS
+country: India
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M12-M100"
+thread_tolerance: "6g"
+product_grade: null
+
+equivalents:
+  iso: []
+  din: ["DIN 529"]
+  gost: ["GOST 24379.0-80", "GOST 24379.1-80"]
+  indian: []
+
+property_classes: ["4.6", "5.6", "8.8"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: external_hex
+  waf_notes: "Types 1 (straight with nut), 2 (L-bend), 3 (plate anchor). Length range 150–5000 mm."
+  length_range: "150-5000 mm"
+  tolerance_grade: null
+
+materials:
+  primary: ["carbon steel", "alloy steel"]
+  stainless_variants: []
+  notes: "Typically cut from bar stock or rod; Type 1: straight + hex nut anchor. Type 2: J/L-bend anchor. Type 3: plate anchor. Property class per IS 1367-3."
+
+surface_treatments:
+  available: ["none", "hot_dip_galvanize", "epoxy_coating"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "8.8"
+    tensile_strength_mpa: 800
+    yield_strength_mpa: 640
+    hardness_min: "245 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 580
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Property class + BIS licence number where applicable"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "IS 1367-3"
+
+designation_examples:
+  gost: null
+  iso: null
+  din: "DIN 529 — M20 × 400 — Typ A — 4.6"
+  indian: "IS 5624 — M20 × 400 — Type 1 — Gr. 4.6"
+
+reliability_notes:
+  - "Foundation bolts are cast-in or drilled-and-grouted into concrete; not reusable after grouting"
+  - "Type selection depends on loading: Type 1 (straight) for light loads; Type 3 (plate) for heavy machinery"
+  - "GOST 24379.0-80 (general spec) + GOST 24379.1-80 (dimensions) are functional equivalents"
+
+sources:
+  - "IS 5624 BIS standard"
+  - "GOST 24379.0-80, GOST 24379.1-80 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

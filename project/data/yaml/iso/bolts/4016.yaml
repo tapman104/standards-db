@@ -1,0 +1,92 @@
+standard: "ISO 4016"
+title: "Hexagon Head Bolt — Product Grade C (Rough)"
+category: bolt
+sub_category: hex_bolt_partial_thread
+body: ISO
+country: International
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M5-M64"
+thread_tolerance: "8g"
+product_grade: "C"
+
+equivalents:
+  iso: []
+  din: ["DIN 601"]
+  gost: ["GOST 15589-70"]
+  indian: ["IS 1363-1"]
+
+property_classes: ["4.6", "5.6", "5.8"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: hex
+  drive: external_hex
+  waf_notes: "Grade C: wider WAF than grade A/B at same diameter for ease of hot-dip galvanizing clearance and site use with standard tools"
+  length_range: null
+  tolerance_grade: "C"
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: []
+  notes: "Low-to-medium carbon steel per ISO 898-1; no alloy or stainless variants in grade C specification. Suitable for general civil/structural applications."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "4.6"
+    tensile_strength_mpa: 400
+    yield_strength_mpa: 240
+    hardness_min: "120 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 225
+  - property_class: "5.6"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 300
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 280
+  - property_class: "5.8"
+    tensile_strength_mpa: 500
+    yield_strength_mpa: 400
+    hardness_min: "155 HV"
+    hardness_max: "220 HV"
+    proof_load_mpa: 380
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Property class + manufacturer code; grade C bolts often used without precise torque control"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 898-1"
+
+designation_examples:
+  gost: "Bolt M12×50-4.6 GOST 15589-70"
+  iso: "ISO 4016 — M12 × 50 — 4.6"
+  din: "DIN 601 — M12 × 50 — 4.6"
+  indian: "IS 1363-1 — M12 × 50 — Gr. 4.6"
+
+reliability_notes:
+  - "Grade C: rougher surface and wider tolerances than grade A/B; not for precision or high-strength applications"
+  - "WAF typically oversized vs grade A at same nominal diameter — spanner compatibility issue when mixing grade A and C in same assembly"
+  - "GOST 15589-70 is close equivalent; WAF dimensions need primary-document verification vs IS 1363-1"
+
+sources:
+  - "ISO 4016 primary standard"
+  - "ISO 898-1 mechanical properties"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

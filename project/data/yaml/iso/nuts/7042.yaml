@@ -1,0 +1,105 @@
+standard: "ISO 7042"
+title: "All-Metal Hexagon Lock Nut — High Form"
+category: lock_nut
+sub_category: all_metal_lock_nut
+body: ISO
+country: International
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M3-M36"
+thread_tolerance: "6H"
+product_grade: "B"
+
+equivalents:
+  iso: []
+  din: ["DIN 980"]
+  gost: []
+  indian: []
+
+property_classes: ["5", "6", "8", "10", "12"]
+max_temperature_c: 300
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: "B"
+
+materials:
+  primary: ["carbon steel", "alloy steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "All-metal prevailing torque type — no nylon insert; locking action from deformed thread or out-of-round bearing face. Suitable for elevated temperatures up to 300 °C."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "phosphate_oil", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "5"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "130 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 500
+  - property_class: "6"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "150 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 600
+  - property_class: "8"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "200 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 800
+  - property_class: "10"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "272 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1000
+  - property_class: "12"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "295 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1200
+
+marking:
+  head_marking_required: true
+  class_12_9_rule: null
+  notes: "Property class on side flat; manufacturer code required for class 8 and above"
+
+testing:
+  proof_load_test: true
+  prevailing_torque_cycles: 5
+  standard_reference: "ISO 2320"
+
+designation_examples:
+  gost: null
+  iso: "ISO 7042 — M12 — 8"
+  din: "DIN 980 — M12 — 8"
+  indian: null
+
+reliability_notes:
+  - "No GOST or Indian equivalent — specify ISO 7042 or DIN 980 directly for procurement"
+  - "All-metal type compatible with hot-dip galvanizing (unlike nyloc types)"
+  - "Maximum service temperature 300 °C — suitable for engine, exhaust, and high-temperature applications"
+  - "Maximum 5 reuse cycles per ISO 2320 before replacement"
+
+sources:
+  - "ISO 7042 primary standard"
+  - "ISO 2320 prevailing torque test"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

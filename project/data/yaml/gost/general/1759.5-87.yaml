@@ -1,0 +1,111 @@
+standard: "GOST 1759.5-87"
+title: "Nuts — Mechanical Properties (Property Classes)"
+category: general_specification
+sub_category: mechanical_properties_nuts
+body: GOST
+country: "USSR/Russia"
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: null
+thread_tolerance: null
+product_grade: null
+
+equivalents:
+  iso: ["ISO 898-2"]
+  din: []
+  gost: []
+  indian: ["IS 1367-6"]
+
+property_classes: ["4", "5", "6", "8", "10", "12"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: []
+  stainless_variants: []
+  notes: "General specification defining material and hardness requirements per nut property class. Low-carbon for class 4–6; alloy steel heat-treated for class 10–12."
+
+surface_treatments:
+  available: []
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "4"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "130 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 400
+  - property_class: "5"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "130 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 500
+  - property_class: "6"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "150 HV"
+    hardness_max: "302 HV"
+    proof_load_mpa: 600
+  - property_class: "8"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "200 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 800
+  - property_class: "10"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "272 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1000
+  - property_class: "12"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "295 HV"
+    hardness_max: "353 HV"
+    proof_load_mpa: 1200
+
+marking:
+  head_marking_required: null
+  class_12_9_rule: null
+  notes: "Property class on side flat; manufacturer code required for class 8 and above"
+
+testing:
+  proof_load_test: null
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 1759.5-87"
+
+designation_examples:
+  gost: null
+  iso: null
+  din: null
+  indian: null
+
+reliability_notes:
+  - "Reference standard for all GOST nut mechanical property requirements"
+  - "Equivalent to ISO 898-2; property class pairing system identical"
+  - "Pairing rules: class 5 nut with 3.6–5.8 bolt; class 8 with 8.8; class 10 with 10.9; class 12 with 12.9"
+  - "Nut class must equal or exceed bolt class to prevent thread stripping at nut"
+
+sources:
+  - "GOST 1759.5-87 primary standard"
+  - "ISO 898-2 published mechanical property values"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

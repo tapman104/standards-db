@@ -1,0 +1,75 @@
+standard: "IS 3063"
+title: "Spring Lock Washers (Single Coil)"
+category: washer
+sub_category: spring_lock_washer
+body: BIS
+country: India
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: "M2-M48"
+thread_tolerance: null
+product_grade: null
+
+equivalents:
+  iso: []
+  din: ["DIN 127"]
+  gost: ["GOST 6402-70"]
+  indian: []
+
+property_classes: []
+max_temperature_c: null
+single_use: true
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["spring steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Spring steel: HRC 41.5–49.5. Once flattened, spring temper permanently lost — single use."
+
+surface_treatments:
+  available: ["zinc_electroplate", "phosphate_oil"]
+  prohibited: ["hot_dip_galvanize"]
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties: []
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: null
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "IS 3063"
+
+designation_examples:
+  gost: "Washer 12 GOST 6402-70"
+  iso: null
+  din: "DIN 127 — B12"
+  indian: "IS 3063 — 12 mm"
+
+reliability_notes:
+  - "Single use: once flattened under tightening load, spring temper is lost; replace on reassembly"
+  - "Limited anti-vibration effectiveness per VDI 2230 and DIN 65151 vibration testing"
+  - "Use only with bolt classes ≤5.8 per GOST guidance; not effective with high-strength bolts (8.8+)"
+  - "Hot-dip galvanizing prohibited — 450 °C bath destroys spring temper"
+
+sources:
+  - "IS 3063 BIS standard"
+  - "DIN 127, GOST 6402-70 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

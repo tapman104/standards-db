@@ -1,0 +1,79 @@
+standard: "DIN 915"
+title: "Hexagon Socket Set Screw — Dog Point"
+category: set_screw
+sub_category: set_screw_dog_point
+body: DIN
+country: Germany
+status: withdrawn
+replaced_by: "ISO 4028"
+confidence: high
+
+thread_range: "M1.4-M20"
+thread_tolerance: "6g"
+product_grade: null
+
+equivalents:
+  iso: ["ISO 4028"]
+  din: []
+  gost: ["GOST 11075-93"]
+  indian: ["IS 6094-3"]
+
+property_classes: ["45H"]
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: hex_socket
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["alloy steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "Class 45H: alloy steel through-hardened; dog point requires pre-machined shaft recess"
+
+surface_treatments:
+  available: ["none", "black_oxide"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "45H"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "450 HV"
+    hardness_max: "560 HV"
+    proof_load_mpa: null
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: "Headless — class marking on socket end face where space permits"
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 898-5"
+
+designation_examples:
+  gost: "Screw M8×20 GOST 11075-93"
+  iso: "ISO 4028 — M8 × 20"
+  din: "DIN 915 — M8 × 20"
+  indian: "IS 6094-3 — M8 × 20"
+
+reliability_notes:
+  - "DIN 915 is withdrawn; specify ISO 4028 for all new orders"
+  - "Dog point requires pre-machined shaft recess matching dog diameter; provides highest holding force with no shaft damage"
+  - "Full dog or half dog variant determined by screw diameter and length per ISO 4028 table"
+
+sources:
+  - "dinmark.com.ua"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

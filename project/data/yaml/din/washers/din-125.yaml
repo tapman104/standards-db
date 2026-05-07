@@ -1,0 +1,86 @@
+standard: "DIN 125"
+title: "Plain Washer — Metric (Type A and Type B)"
+category: washer
+sub_category: plain_washer
+body: DIN
+country: Germany
+status: withdrawn
+replaced_by: "ISO 7089 (Type A) / ISO 7090 (Type B)"
+confidence: high
+
+thread_range: "M1-M64"
+thread_tolerance: null
+product_grade: null
+
+equivalents:
+  iso: ["ISO 7089", "ISO 7090"]
+  din: []
+  gost: ["GOST 11371-78"]
+  indian: ["IS 2016"]
+
+property_classes: []
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: ["carbon steel"]
+  stainless_variants: ["A2", "A4"]
+  notes: "DIN 125-A: no bore chamfer, 200 HV. DIN 125-B: chamfered bore, 300 HV. Use 300 HV with class 10.9 and 12.9 bolt assemblies."
+
+surface_treatments:
+  available: ["none", "zinc_electroplate", "hot_dip_galvanize"]
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties:
+  - property_class: "200 HV"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "200 HV"
+    hardness_max: "300 HV"
+    proof_load_mpa: null
+  - property_class: "300 HV"
+    tensile_strength_mpa: null
+    yield_strength_mpa: null
+    hardness_min: "300 HV"
+    hardness_max: "400 HV"
+    proof_load_mpa: null
+
+marking:
+  head_marking_required: false
+  class_12_9_rule: null
+  notes: "Washers typically unmarked; hardness grade may be marked on packaging"
+
+testing:
+  proof_load_test: false
+  prevailing_torque_cycles: null
+  standard_reference: "ISO 7089 / ISO 7090"
+
+designation_examples:
+  gost: "Washer 12 GOST 11371-78"
+  iso: "ISO 7089 — 12 — 200HV"
+  din: "DIN 125-A — 12"
+  indian: "IS 2016 — 12 — 200HV"
+
+reliability_notes:
+  - "DIN 125-A and DIN 125-B are both withdrawn; specify ISO 7089 or ISO 7090 for new orders"
+  - "DIN 125-A (no chamfer) → ISO 7089; DIN 125-B (chamfered bore) → ISO 7090"
+  - "Always specify 300 HV when used with class 10.9 or 12.9 bolts to prevent embedment under high clamp load"
+  - "HOT-DIP GALVANIZE: washer bore must remain within tolerance after galvanizing — oversized bore required"
+
+sources:
+  - "dinmark.com.ua"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"

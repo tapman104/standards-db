@@ -1,0 +1,74 @@
+standard: "GOST 8724-2002"
+title: "Metric Thread — Diameters and Pitches"
+category: thread_standard
+sub_category: thread_dimensions
+body: GOST
+country: Russia
+status: active
+replaced_by: null
+confidence: high
+
+thread_range: null
+thread_tolerance: null
+product_grade: null
+
+equivalents:
+  iso: ["ISO 261", "ISO 262"]
+  din: []
+  gost: []
+  indian: ["IS 4218-2"]
+
+property_classes: []
+max_temperature_c: null
+single_use: false
+
+dimensions:
+  head_type: null
+  drive: null
+  waf_notes: null
+  length_range: null
+  tolerance_grade: null
+
+materials:
+  primary: []
+  stainless_variants: []
+  notes: null
+
+surface_treatments:
+  available: []
+  prohibited: []
+  coating_codes: {}
+  hydrogen_embrittlement_bake: null
+
+mechanical_properties: []
+
+marking:
+  head_marking_required: null
+  class_12_9_rule: null
+  notes: null
+
+testing:
+  proof_load_test: null
+  prevailing_torque_cycles: null
+  standard_reference: "GOST 8724-2002"
+
+designation_examples:
+  gost: null
+  iso: null
+  din: null
+  indian: null
+
+reliability_notes:
+  - "Defines the preferred series of nominal diameters and pitches for metric threads"
+  - "Equivalent to combined ISO 261 (general series) and ISO 262 (selected sizes)"
+  - "Reference for all GOST fastener thread selection"
+
+sources:
+  - "GOST 8724-2002 primary standard"
+  - "ISO 261, ISO 262 cross-reference"
+
+meta:
+  source_type: researched_summary
+  legal_status: factual_cross_reference
+  doc_version: "2.0"
+  last_updated: "2026-05"
