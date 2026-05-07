@@ -9,7 +9,7 @@ Usage:
 import sys, pathlib, yaml, json
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-YAML_DIR = ROOT / "data" / "yaml"
+YAML_DIR = ROOT / "domains" / "mechanical" / "fasteners"
 
 REQUIRED_TOP = [
     "standard", "title", "category", "sub_category", "body", "country",

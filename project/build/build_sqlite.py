@@ -10,7 +10,7 @@ Output: project/build/sqlite/standards.db
 import sys, pathlib, sqlite3, json, yaml
 
 ROOT     = pathlib.Path(__file__).resolve().parent.parent
-YAML_DIR = ROOT / "data" / "yaml"
+YAML_DIR = ROOT / "domains" / "mechanical" / "fasteners"
 DB_PATH  = ROOT / "build" / "sqlite" / "standards.db"
 
 # ─── DDL ──────────────────────────────────────────────────────────────────────
