@@ -1,4 +1,4 @@
-# Fastener Standards Domain Database (ISO, DIN, GOST, BIS)
+# Engineering Standards Knowledge Base 
 
 A structured, machine-readable engineering standards repository for mechanical fasteners. This project organizes international fastener standards into YAML + Markdown records, validates them against a strict schema, and builds a searchable SQLite database for manufacturing, procurement, QA, and engineering automation.
 
