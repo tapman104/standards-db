@@ -1,4 +1,4 @@
-# Fastener Standards Domain Database (ISO, DIN, GOST, BIS)
+# Engineering Standards Knowledge Base 
 
 A structured, machine-readable engineering standards repository for mechanical fasteners. This project organizes international fastener standards into YAML + Markdown records, validates them against a strict schema, and builds a searchable SQLite database for manufacturing, procurement, QA, and engineering automation.
 
@@ -137,4 +137,4 @@ If you expand the repository into new domains (electrical, materials, fluid, man
 
 ## SEO Notes
 
-This README intentionally includes high-intent technical terms used by engineers and sourcing teams, including ISO/DIN/GOST/BIS fastener standards, standards database, and machine-readable engineering data.
+Keywords: engineering standards database, engineering specification database, engineering standards knowledge base, engineering standards knowledge graph, machine-readable engineering standards, structured engineering data, technical standards repository, industrial standards database, standards interoperability database, engineering metadata platform, standards cross-reference system, ISO standards database, DIN standards database, GOST standards database, BIS standards database, ASTM standards database, IEC standards database, SAE standards database, JIS standards database, EN standards database, mechanical standards database, electrical standards database, manufacturing standards database, materials standards database, fluid systems standards database, fastener standards database, bolt standards, nut standards, washer standards, thread standards, engineering compliance data, engineering reference database, engineering ontology, engineering specification graph, engineering compatibility database, industrial component standards, CAD engineering metadata, manufacturing reference data, procurement standards lookup, standards equivalence mapping, standards normalization, technical specification database, engineering search platform, standards relationship graph, SQLite engineering database, YAML engineering database, engineering data validation, engineering schema system, standards automation platform, engineering data pipeline, engineering knowledge infrastructure, structured technical knowledge, standards intelligence platform, standards analytics database.
