@@ -18,24 +18,32 @@ It provides:
 ## Project Structure
 
 ```text
-project/
-  build/
-    validate.py
-    build_sqlite.py
-    sqlite/
-  domains/
-    mechanical/
-      fasteners/
-        iso/
-        din/
-        gost/
-        indian/
-    electrical/
-    materials/
-    fluid/
-    manufacturing/
-  schemas/
-    standard.schema.yaml
+├── project/
+│   ├── build/
+│   │   ├── validate.py
+│   │   ├── build_sqlite.py
+│   │   ├── schema.sql
+│   │   └── sqlite/
+│   │       └── standards.db
+│   ├── domains/
+│   │   ├── mechanical/
+│   │   │   └── fasteners/
+│   │   │       ├── iso/
+│   │   │       ├── din/
+│   │   │       ├── gost/
+│   │   │       └── indian/
+│   │   ├── electrical/
+│   │   ├── materials/
+│   │   ├── fluid/
+│   │   └── manufacturing/
+│   ├── schemas/
+│   │   └── standard.schema.yaml
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CONTRIBUTING.md
+│   └── LEGAL.md
+├── scripts/
+│   └── generate_all.py
+└── README.md
 ```
 
 ## Data Model (Fast Summary)
@@ -47,7 +55,7 @@ Each standard record includes normalized fields such as:
 - Interoperability: equivalents (ISO/DIN/GOST/Indian)
 - Compliance metadata: sources, legal_status, confidence, versioning
 
-Schema source: [schemas/standard.schema.yaml](schemas/standard.schema.yaml)
+Schema source: [project/schemas/standard.schema.yaml](project/schemas/standard.schema.yaml)
 
 ## Quick Start
 
@@ -72,7 +80,7 @@ python build_sqlite.py
 ```
 
 Output database:
-- [project/build/sqlite/standards.db](build/sqlite/standards.db)
+- [project/build/sqlite/standards.db](project/build/sqlite/standards.db)
 
 ## How to Use the Data
 
@@ -98,7 +106,7 @@ ORDER BY standard;
 ## Legal and Compliance
 
 Please review:
-- [project/LEGAL.md](LEGAL.md)
+- [project/LEGAL.md](project/LEGAL.md)
 
 Important points:
 - This project is an engineering reference dataset, not legal advice
@@ -108,7 +116,7 @@ Important points:
 ## Contributing
 
 Contributions are welcome. Start here:
-- [project/CONTRIBUTING.md](CONTRIBUTING.md)
+- [project/CONTRIBUTING.md](project/CONTRIBUTING.md)
 
 Please make sure all contributed records:
 - Follow the schema exactly
@@ -118,7 +126,7 @@ Please make sure all contributed records:
 ## Code of Conduct
 
 This project adopts a contributor conduct policy:
-- [project/CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [project/CODE_OF_CONDUCT.md](project/CODE_OF_CONDUCT.md)
 
 ## Maintainer Notes
 

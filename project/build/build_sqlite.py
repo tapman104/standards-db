@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS standards (
     surface_available       TEXT,          -- JSON array
     surface_prohibited      TEXT,          -- JSON array
     coating_codes           TEXT,          -- JSON object
-    h_embrittlement_bake    TEXT,
+    hydrogen_embrittlement_bake TEXT,
     -- marking
     head_marking_required   INTEGER,       -- 0/1/NULL
     class_12_9_rule         TEXT,
@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS standards (
     -- testing
     proof_load_test         INTEGER,       -- 0/1/NULL
     prevailing_torque_cycles INTEGER,
-    testing_standard_ref    TEXT,
+    testing_standard_reference TEXT,
     -- designation examples
     designation_gost        TEXT,
     designation_iso         TEXT,
@@ -164,9 +164,9 @@ def main():
                 single_use,
                 head_type, drive, waf_notes, length_range, tolerance_grade,
                 primary_materials, stainless_variants, materials_notes,
-                surface_available, surface_prohibited, coating_codes, h_embrittlement_bake,
+                surface_available, surface_prohibited, coating_codes, hydrogen_embrittlement_bake,
                 head_marking_required, class_12_9_rule, marking_notes,
-                proof_load_test, prevailing_torque_cycles, testing_standard_ref,
+                proof_load_test, prevailing_torque_cycles, testing_standard_reference,
                 designation_gost, designation_iso, designation_din, designation_indian,
                 property_classes, reliability_notes, sources,
                 source_type, legal_status, doc_version, last_updated,
